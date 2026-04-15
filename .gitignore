@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# OS / editor cruft
+.DS_Store
+.vscode
+.claude
+
+# Python
+__pycache__
+
+# Pipeline output (folder is tracked via .gitkeep, contents are not)
+output_jsons/*
+!output_jsons/.gitkeep
+
+# Pass 2 batch artefacts
+batch_files
+oldoutput
+output_jsons_downloaded
+
+# Node
+node_modules

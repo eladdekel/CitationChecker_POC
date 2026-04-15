@@ -1,0 +1,26 @@
+# PDF processing
+pdfplumber
+
+# Data handling
+pandas
+datasets
+
+# Database
+psycopg2-binary
+
+# OpenAI API
+openai
+
+# Google Gemini API
+google-genai
+
+# Token counting
+tiktoken
+
+# HTTP requests
+requests
+urllib3
+
+# Progress bars
+tqdm
+

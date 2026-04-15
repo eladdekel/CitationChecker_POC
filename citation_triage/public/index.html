@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citation Triage | Flagged Issue Review</title>
+    <meta name="description" content="Fast triage tool for reviewing flagged citation issues across legal documents.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Top Bar -->
+        <header class="topbar">
+            <div class="topbar-left">
+                <div class="brand">
+                    <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                        <path d="M2 17l10 5 10-5" />
+                        <path d="M2 12l10 5 10-5" />
+                    </svg>
+                    <span class="brand-text">Citation Triage</span>
+                </div>
+                <div class="stat-pills" id="stat-pills">
+                    <span class="pill pill-total"><span class="pill-num" id="pill-total">—</span> total</span>
+                    <span class="pill pill-flagged"><span class="pill-num" id="pill-flagged">—</span> flagged</span>
+                    <span class="pill pill-reviewed"><span class="pill-num" id="pill-reviewed">—</span> reviewed</span>
+                </div>
+            </div>
+            <div class="topbar-right">
+                <button class="btn btn-ghost" id="btn-export-csv" title="Export filtered rows to CSV">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="7 10 12 15 17 10" />
+                        <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                    Export CSV
+                </button>
+                <button class="btn btn-ghost" id="btn-refresh" title="Reload data">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                        <polyline points="23 4 23 10 17 10" />
+                        <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+                    </svg>
+                    Refresh
+                </button>
+            </div>
+        </header>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar" id="filter-bar">
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label>File</label>
+                    <select id="f-file">
+                        <option value="">All files</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Reason Code</label>
+                    <select id="f-reason">
+                        <option value="">All reasons</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Relation Score</label>
+                    <select id="f-rel">
+                        <option value="">Any</option>
+                        <option value="critical">Critical (&lt; 0.3)</option>
+                        <option value="suspect">Suspect (0.3–0.6)</option>
+                        <option value="low">Low (&lt; 0.6)</option>
+                        <option value="medium">Medium (0.6–0.8)</option>
+                        <option value="high">High (&gt; 0.8)</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Flags</label>
+                    <select id="f-flags">
+                        <option value="">Any</option>
+                        <option value="below_threshold">Below Threshold</option>
+                        <option value="out_of_jurisdiction">Out of Jurisdiction</option>
+                        <option value="age_mismatch">Age Mismatch</option>
+                        <option value="name_mismatch">Name Mismatch</option>
+                        <option value="any_flag">Has Any Flag</option>
+                        <option value="no_flags">No Flags</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Review Status</label>
+                    <select id="f-review">
+                        <option value="">All</option>
+                        <option value="unreviewed">Unreviewed</option>
+                        <option value="problematic">Problematic</option>
+                        <option value="fine">Fine</option>
+                        <option value="ignored">Ignored</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Search</label>
+                    <input type="text" id="f-search" placeholder="citation or text…" autocomplete="off">
+                </div>
+                <div class="filter-actions">
+                    <button class="btn btn-sm btn-ghost" id="btn-clear-filters">Clear</button>
+                    <span class="filter-count" id="filter-count"></span>
+                </div>
+            </div>
+            <!-- Bulk actions -->
+            <div class="bulk-bar" id="bulk-bar" style="display:none">
+                <label class="bulk-select-all"><input type="checkbox" id="bulk-select-all"> Select all visible</label>
+                <span id="bulk-count">0 selected</span>
+                <button class="btn btn-sm btn-fine" id="bulk-fine">Mark Fine</button>
+                <button class="btn btn-sm btn-problematic" id="bulk-problematic">Mark Problematic</button>
+                <button class="btn btn-sm btn-ignored" id="bulk-ignored">Mark Ignored</button>
+            </div>
+        </div>
+
+        <!-- Main Table -->
+        <div class="table-wrap" id="table-wrap">
+            <table class="triage-table" id="triage-table">
+                <thead>
+                    <tr>
+                        <th class="col-check"><input type="checkbox" id="th-check"></th>
+                        <th class="col-file sortable" data-sort="filename">File</th>
+                        <th class="col-citation sortable" data-sort="citation">Citation</th>
+                        <th class="col-page sortable" data-sort="page">Pg</th>
+                        <th class="col-rel sortable" data-sort="gpt_relation_score">Rel</th>
+                        <th class="col-reason sortable" data-sort="gpt_reason_code">Reason</th>
+                        <th class="col-flags">Flags</th>
+                        <th class="col-status sortable" data-sort="review_status">Status</th>
+                        <th class="col-actions">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+            <div class="load-more-wrap" id="load-more-wrap" style="display:none">
+                <button class="btn btn-ghost" id="btn-load-more">Show more rows…</button>
+            </div>
+            <div class="empty-state" id="empty-state" style="display:none">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="48" height="48">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M8 15s1.5 2 4 2 4-2 4-2" />
+                    <line x1="9" y1="9" x2="9.01" y2="9" />
+                    <line x1="15" y1="9" x2="15.01" y2="9" />
+                </svg>
+                <p>No matching citation instances</p>
+            </div>
+            <div class="loading-state" id="loading-state">
+                <div class="spinner"></div>
+                <p>Loading citation data…</p>
+            </div>
+        </div>
+
+        <!-- Detail Drawer (slides in from right) -->
+        <div class="drawer-overlay" id="drawer-overlay"></div>
+        <aside class="drawer" id="drawer">
+            <div class="drawer-header">
+                <h2 id="drawer-title">Instance Detail</h2>
+                <button class="btn-close" id="drawer-close">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </button>
+            </div>
+            <div class="drawer-body" id="drawer-body"></div>
+            <div class="drawer-footer" id="drawer-footer"></div>
+        </aside>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

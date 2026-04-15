@@ -1,0 +1,3250 @@
+[
+    {
+        "court_name": "Provincial Court of Newfoundland and Labrador",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nlpc",
+        "jurisdiction": "nl",
+        "latest_case": "GL v CR",
+        "citation": "2026 CanLII 6002 (NL PC)"
+    },
+    {
+        "court_name": "College of Pharmacy of Newfoundland and Labrador",
+        "court_acronym": "NLPB",
+        "databaseId": "nlpb",
+        "jurisdiction": "nl",
+        "latest_case": "Newfoundland and Labrador (Pharmacy Board) v. Johanna Elliott",
+        "citation": "2024 NLPB 2"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des podiatres du Québec",
+        "court_acronym": "QCCDPOD",
+        "databaseId": "qcopodq",
+        "jurisdiction": "qc",
+        "latest_case": "Podiatres (Ordre professionnel des) c. Pace",
+        "citation": "2025 QCCDPOD 2"
+    },
+    {
+        "court_name": "Quebec Autorité des marchés financiers",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qcamf",
+        "jurisdiction": "qc",
+        "latest_case": "Orange (Re)",
+        "citation": "2026 CanLII 4998 (QC AMF)"
+    },
+    {
+        "court_name": "Court of Appeal of Alberta",
+        "court_acronym": "ABCA",
+        "databaseId": "abca",
+        "jurisdiction": "ab",
+        "latest_case": "Urban v Enright West Ltd",
+        "citation": "2026 ABCA 34"
+    },
+    {
+        "court_name": "British Columbia College of Nurses and Midwives",
+        "court_acronym": "BCCNM",
+        "databaseId": "bccnm",
+        "jurisdiction": "bc",
+        "latest_case": "British Columbia College of Nurses and Midwives v Hamm",
+        "citation": "2025 BCCNM 2"
+    },
+    {
+        "court_name": "Autorité des marchés publics",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qcamp",
+        "jurisdiction": "qc",
+        "latest_case": "Ordonnances et recommandations formulées à la présidente-directrice générale par intérim de la Société de l'assurance automobile du Québec concernant les processus identifiés au SEAO sous les numéros de référence 891193, 905305, 928582, 1802922 et 2000326",
+        "citation": "2026 CanLII 1560 (QC AMP)"
+    },
+    {
+        "court_name": "Corporation of Master Pipe-Mechanics of Québec",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qccmmtq",
+        "jurisdiction": "qc",
+        "latest_case": "Corporation des maîtres mécaniciens en tuyauterie du Québec (CMMTQ) c. Aura Climatisation Chauffage inc.",
+        "citation": "2025 CanLII 125279 (QC CMMTQ)"
+    },
+    {
+        "court_name": "Northwest Territories and Nunavut Workers’ Compensation Appeals Tribunal",
+        "court_acronym": "EMPTY",
+        "databaseId": "nuwcat",
+        "jurisdiction": "nu",
+        "latest_case": "No Cases",
+        "citation": "N/A"
+    },
+    {
+        "court_name": "Financial and Consumer Services Tribunal",
+        "court_acronym": "NBFCST",
+        "databaseId": "nbsec",
+        "jurisdiction": "nb",
+        "latest_case": "Financial and Consumer Services Commission v. McKellar et al.",
+        "citation": "2022 NBFCST 6"
+    },
+    {
+        "court_name": "College of Dental Hygienists of Ontario",
+        "court_acronym": "ONCDHO",
+        "databaseId": "oncdho",
+        "jurisdiction": "on",
+        "latest_case": "Ontario (College of Dental Hygienists of Ontario) v McIntosh",
+        "citation": "2024 ONCDHO 1"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des comptables professionnels agréés du Québec",
+        "court_acronym": "QCCDCPA",
+        "databaseId": "qccpa",
+        "jurisdiction": "qc",
+        "latest_case": "Comptables professionnels agréés (Ordre des) c. Ngangue",
+        "citation": "2026 QCCDCPA 1"
+    },
+    {
+        "court_name": "Human Rights Tribunal of Ontario",
+        "court_acronym": "HRTO",
+        "databaseId": "onhrt",
+        "jurisdiction": "on",
+        "latest_case": "Walti-Jaeranny v. Ontario (Children, Community and Social Services)",
+        "citation": "2026 HRTO 175"
+    },
+    {
+        "court_name": "Labour Court",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qctt",
+        "jurisdiction": "qc",
+        "latest_case": "H.A. c. Fraternité des policières et policiers de Montréal inc.",
+        "citation": "2009 CanLII 3935 (QC TT)"
+    },
+    {
+        "court_name": "Health Professions Review Board of British Columbia",
+        "court_acronym": "BCHPRB",
+        "databaseId": "bchprb",
+        "jurisdiction": "bc",
+        "latest_case": "Complainant v. College of Physicians and Surgeons of British Columbia (No. 1)",
+        "citation": "2025 BCHPRB 110"
+    },
+    {
+        "court_name": "Nova Scotia Animal Welfare Appeal Board",
+        "court_acronym": "NSAWAB",
+        "databaseId": "nsawab",
+        "jurisdiction": "ns",
+        "latest_case": "H.B. and L.B. v Nova Scotia Society for the Prevention of Cruelty to Animals (SPCA)",
+        "citation": "2024 NSAWAB 3"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des sages-femmes du Québec",
+        "court_acronym": "QCCDSF",
+        "databaseId": "qccdosfq",
+        "jurisdiction": "qc",
+        "latest_case": "Sages-femmes (Ordre professionnel des) c. Lacas",
+        "citation": "2023 QCCDSF 1"
+    },
+    {
+        "court_name": "Registrar of Mortgage Brokers",
+        "court_acronym": "BCRMB",
+        "databaseId": "bcrmb",
+        "jurisdiction": "bc",
+        "latest_case": "Avery (Re)",
+        "citation": "2025 BCRMB 9"
+    },
+    {
+        "court_name": "British Columbia Employment Standards Tribunal",
+        "court_acronym": "BCEST",
+        "databaseId": "bcest",
+        "jurisdiction": "bc",
+        "latest_case": "David Stirling",
+        "citation": "2026 BCEST 4"
+    },
+    {
+        "court_name": "Professions Tribunal",
+        "court_acronym": "QCTP",
+        "databaseId": "qctp",
+        "jurisdiction": "qc",
+        "latest_case": "Gilbert c. Pharmaciens (Ordre professionnel des)",
+        "citation": "2025 QCTP 56"
+    },
+    {
+        "court_name": "Law Society of British Columbia",
+        "court_acronym": "LSBC",
+        "databaseId": "lsbc",
+        "jurisdiction": "bc",
+        "latest_case": "Porritt (Re)",
+        "citation": "2026 LSBC 4"
+    },
+    {
+        "court_name": "Conseil de discipline de la Chambre des huissiers de justice du Québec",
+        "court_acronym": "QCCDHJ",
+        "databaseId": "qccdhj",
+        "jurisdiction": "qc",
+        "latest_case": "Huissiers de justice (Ordre professionnel des) c. Beaudet",
+        "citation": "2024 QCCDHJ 3"
+    },
+    {
+        "court_name": "Alberta Employment Standards Appeals",
+        "court_acronym": "ABESAB",
+        "databaseId": "abesu",
+        "jurisdiction": "ab",
+        "latest_case": "McGonigle v OCEAN FLUIDS LTD., operating as Ocean Fluids & Filtration",
+        "citation": "2026 ABESAB 3"
+    },
+    {
+        "court_name": "Information and Privacy Commissioner",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "skipc",
+        "jurisdiction": "sk",
+        "latest_case": "Prince Albert (City) (Re)",
+        "citation": "2026 CanLII 7577 (SK IPC)"
+    },
+    {
+        "court_name": "Court Martial Appeal Court of Canada",
+        "court_acronym": "CMAC",
+        "databaseId": "cmac-cacm",
+        "jurisdiction": "ca",
+        "latest_case": "R v. Calderon",
+        "citation": "2026 CMAC 2"
+    },
+    {
+        "court_name": "Ontario College of Social Workers and Social Service Workers",
+        "court_acronym": "ONCSWSSW",
+        "databaseId": "oncswssw",
+        "jurisdiction": "on",
+        "latest_case": "Ontario College of Social Workers and Social Service Workers v Sinisa Najcler",
+        "citation": "2025 ONCSWSSW 12"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des criminologues du Québec",
+        "court_acronym": "QCCDCRIM",
+        "databaseId": "qccdcrim",
+        "jurisdiction": "qc",
+        "latest_case": "A c. Arbour Langelier",
+        "citation": "2025 QCCDCRIM 1"
+    },
+    {
+        "court_name": "Building Code Commission",
+        "court_acronym": "ONBCC",
+        "databaseId": "onbcc",
+        "jurisdiction": "on",
+        "latest_case": "Hewitt and Graves v. Watson",
+        "citation": "2024 ONBCC 21"
+    },
+    {
+        "court_name": "Saskatchewan Assessment Commission",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "skac",
+        "jurisdiction": "sk",
+        "latest_case": "In re Northern Saskatchewan Flying Training School and Rural Municipality of Buckland",
+        "citation": "1943 CanLII 217 (SK AC)"
+    },
+    {
+        "court_name": "Court of Appeal of Nunavut",
+        "court_acronym": "NUCA",
+        "databaseId": "nuca",
+        "jurisdiction": "nu",
+        "latest_case": "R v Meeko",
+        "citation": "2025 NUCA 12"
+    },
+    {
+        "court_name": "College of Physicians and Surgeons of British Columbia",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "bccps",
+        "jurisdiction": "bc",
+        "latest_case": "Skrenes (Re)",
+        "citation": "2025 CanLII 97600 (BC CPS)"
+    },
+    {
+        "court_name": "Alberta Residential Tenancy Dispute Resolution Service",
+        "court_acronym": "ABRTDRS",
+        "databaseId": "abrtdrs",
+        "jurisdiction": "ab",
+        "latest_case": "25004430 (Re)",
+        "citation": "2025 ABRTDRS 19"
+    },
+    {
+        "court_name": "Chartered Professional Accountants of Alberta",
+        "court_acronym": "ABCPA",
+        "databaseId": "abcpa",
+        "jurisdiction": "ab",
+        "latest_case": "Rozek (Re)",
+        "citation": "2025 ABCPA 3"
+    },
+    {
+        "court_name": "Superior Court of Justice",
+        "court_acronym": "ONSC",
+        "databaseId": "onsc",
+        "jurisdiction": "on",
+        "latest_case": "Sharma v. Kaur",
+        "citation": "2026 ONSC 724"
+    },
+    {
+        "court_name": "Newfoundland and Labrador Human Rights Commission",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nlhrc",
+        "jurisdiction": "nl",
+        "latest_case": "Veronica Nugent v. Government of Newfoundland and Labrador, Department of Health and Community Services",
+        "citation": "2025 CanLII 99877 (NL HRC)"
+    },
+    {
+        "court_name": "Nunavut Court of Justice",
+        "court_acronym": "NUCJ",
+        "databaseId": "nucj",
+        "jurisdiction": "nu",
+        "latest_case": "R. v Toonoo",
+        "citation": "2025 NUCJ 37"
+    },
+    {
+        "court_name": "Ontario Securities Commission",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onsec",
+        "jurisdiction": "on",
+        "latest_case": "RBC Global Asset Management Inc. (Re)",
+        "citation": "2026 CanLII 7599 (ON SEC)"
+    },
+    {
+        "court_name": "Information and Privacy Commissioner",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "peipc",
+        "jurisdiction": "pe",
+        "latest_case": "Office of the Premier (Re)",
+        "citation": "2026 CanLII 5480 (PE IPC)"
+    },
+    {
+        "court_name": "Nova Scotia Serious Incident Response Team",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nssirt",
+        "jurisdiction": "ns",
+        "latest_case": "RCMP Halifax District (Re)",
+        "citation": "2018 CanLII 143599 (NS SIRT)"
+    },
+    {
+        "court_name": "College of Physiotherapists of Alberta",
+        "court_acronym": "ABCPT",
+        "databaseId": "abcpt",
+        "jurisdiction": "ab",
+        "latest_case": "College of Physiotherapists of Alberta v Musni",
+        "citation": "2025 ABCPT 6"
+    },
+    {
+        "court_name": "Ontario Racing Commission",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onrc",
+        "jurisdiction": "on",
+        "latest_case": "Ontario Harness Horse Association (Re)",
+        "citation": "2017 CanLII 36081 (ON RC)"
+    },
+    {
+        "court_name": "New Brunswick Real Estate Association",
+        "court_acronym": "NBREA",
+        "databaseId": "nbrea",
+        "jurisdiction": "nb",
+        "latest_case": "Nadeau (Re)",
+        "citation": "2025 NBREA 2311"
+    },
+    {
+        "court_name": "College of Patent Agents & Trademark Agents",
+        "court_acronym": "CPATA",
+        "databaseId": "cpata-cabamc",
+        "jurisdiction": "ca",
+        "latest_case": "College of Patent Agents and Trademark Agents (CPATA) v Eric Fincham",
+        "citation": "2025 CPATA 5"
+    },
+    {
+        "court_name": "Alberta Commission of Inquiry",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "abci",
+        "jurisdiction": "ab",
+        "latest_case": "Royal American Shows Inc. (Re)",
+        "citation": "1977 CanLII 2045 (AB CI)"
+    },
+    {
+        "court_name": "Courts Martial",
+        "court_acronym": "CM",
+        "databaseId": "cm",
+        "jurisdiction": "ca",
+        "latest_case": "Matiz C.J. (Sergeant), R. v.",
+        "citation": "2025 CM 7013"
+    },
+    {
+        "court_name": "Ontario Special Education  (English) Tribunal",
+        "court_acronym": "ONSET",
+        "databaseId": "onset",
+        "jurisdiction": "on",
+        "latest_case": "OG v. Toronto District School Board",
+        "citation": "2025 ONSET 5"
+    },
+    {
+        "court_name": "Régie des marchés agricoles et alimentaires du Québec",
+        "court_acronym": "QCRMAAQ",
+        "databaseId": "qcrmaaq",
+        "jurisdiction": "qc",
+        "latest_case": "Office des pêcheurs de flétan du Groenland du Québec et Association québécoise de l'industrie de la pêche",
+        "citation": "2025 QCRMAAQ 53"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des ergothérapeutes du Québec",
+        "court_acronym": "QCCDERG",
+        "databaseId": "qcoeq",
+        "jurisdiction": "qc",
+        "latest_case": "Ergothérapeutes (Ordre professionnel des) c. Lafond",
+        "citation": "2025 QCCDERG 6"
+    },
+    {
+        "court_name": "Court of Appeal for British Columbia",
+        "court_acronym": "BCCA",
+        "databaseId": "bcca",
+        "jurisdiction": "bc",
+        "latest_case": "Sinclair v. T.D.M.C. Holdings Ltd.",
+        "citation": "2026 BCCA 47"
+    },
+    {
+        "court_name": "Tribunal administratif des marchés financiers",
+        "court_acronym": "QCTMF",
+        "databaseId": "qcbdrvm",
+        "jurisdiction": "qc",
+        "latest_case": "Autorité des marchés financiers c. Addison",
+        "citation": "2026 QCTMF 4"
+    },
+    {
+        "court_name": "Environmental Protection Tribunal of Canada",
+        "court_acronym": "EPTC",
+        "databaseId": "eptc",
+        "jurisdiction": "ca",
+        "latest_case": "Jia v. Canada (Environment and Climate Change)",
+        "citation": "2025 EPTC 1"
+    },
+    {
+        "court_name": "Ontario Review Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onrb",
+        "jurisdiction": "on",
+        "latest_case": "Ince (Re)",
+        "citation": "2026 CanLII 6276 (ON RB)"
+    },
+    {
+        "court_name": "Financial and Consumer Affairs Authority of Saskatchewan",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "sksec",
+        "jurisdiction": "sk",
+        "latest_case": "Cnsx Markets Inc. (Re)",
+        "citation": "2024 CanLII 125223 (SK FCAA)"
+    },
+    {
+        "court_name": "Federal Public Sector Labour Relations and Employment Board",
+        "court_acronym": "FPSLREB",
+        "databaseId": "pslreb",
+        "jurisdiction": "ca",
+        "latest_case": "Public Service Alliance of Canada v. Library of Parliament",
+        "citation": "2026 FPSLREB 5"
+    },
+    {
+        "court_name": "Court of Appeal of Manitoba",
+        "court_acronym": "MBCA",
+        "databaseId": "mbca",
+        "jurisdiction": "mb",
+        "latest_case": "Bueti v Macintosh",
+        "citation": "2026 MBCA 8"
+    },
+    {
+        "court_name": "Ottawa Committee of Adjustment",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onoca",
+        "jurisdiction": "on",
+        "latest_case": "2668867 Ontario Inc. (Re)",
+        "citation": "2026 CanLII 4315 (ON OCA)"
+    },
+    {
+        "court_name": "Court of Appeal for Saskatchewan",
+        "court_acronym": "SKCA",
+        "databaseId": "skca",
+        "jurisdiction": "sk",
+        "latest_case": "R v Nordquist",
+        "citation": "2026 SKCA 20"
+    },
+    {
+        "court_name": "Conseil de discipline de la Chambre des notaires du Québec",
+        "court_acronym": "QCCDNOT",
+        "databaseId": "qccdnq",
+        "jurisdiction": "qc",
+        "latest_case": "Notaires (Ordre professionnel des) c. Khalaji",
+        "citation": "2026 QCCDNOT 1"
+    },
+    {
+        "court_name": "Alberta Energy Regulator",
+        "court_acronym": "ABAER",
+        "databaseId": "abaer",
+        "jurisdiction": "ab",
+        "latest_case": "Canadian Natural Resources Limited v. AER Regulatory Compliance Branch",
+        "citation": "2025 ABAER 7"
+    },
+    {
+        "court_name": "Northwest Territories and Nunavut Workers’ Compensation Appeals Tribunal",
+        "court_acronym": "NTNUWCAT",
+        "databaseId": "ntwcat",
+        "jurisdiction": "nt",
+        "latest_case": "Decision 25-001",
+        "citation": "2025 NTNUWCAT 1"
+    },
+    {
+        "court_name": "Sport Dispute Resolution Centre of Canada",
+        "court_acronym": "CASDRC",
+        "databaseId": "casdrc-cacrds",
+        "jurisdiction": "ca",
+        "latest_case": "R.Y. v. Hockey Canada",
+        "citation": "2025 CASDRC 43"
+    },
+    {
+        "court_name": "Office of the Ombudsman of Ontario",
+        "court_acronym": "ONOMBUD",
+        "databaseId": "onombud",
+        "jurisdiction": "on",
+        "latest_case": "Bonfield (Township of) (Re)",
+        "citation": "2026 ONOMBUD 1"
+    },
+    {
+        "court_name": "Engineers and Geoscientists British Columbia",
+        "court_acronym": "BCEGBC",
+        "databaseId": "bceg",
+        "jurisdiction": "bc",
+        "latest_case": "McNally (Re)",
+        "citation": "2026 BCEGBC 2"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre professionnel des chimistes du Québec",
+        "court_acronym": "QCCDCHIM",
+        "databaseId": "qcochq",
+        "jurisdiction": "qc",
+        "latest_case": "Chimistes (Ordre professionnel des) c. Weigensberg",
+        "citation": "2024 QCCDCHIM 2"
+    },
+    {
+        "court_name": "Court of Appeal for the Northwest Territories",
+        "court_acronym": "NWTCA",
+        "databaseId": "ntca",
+        "jurisdiction": "nt",
+        "latest_case": "Gwich'in Tribal Council v KBL Environmental Ltd",
+        "citation": "2026 NWTCA 1"
+    },
+    {
+        "court_name": "Calgary Tax Incentive Appeal Board",
+        "court_acronym": "ABCTIAB",
+        "databaseId": "abctiab",
+        "jurisdiction": "ab",
+        "latest_case": "Deerfoot Barlow Solar Limited Partnership v Calgary (City)",
+        "citation": "2025 ABCTIAB 1"
+    },
+    {
+        "court_name": "Small Claims Court",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onscsm",
+        "jurisdiction": "on",
+        "latest_case": "2097181 Ontario Inc. o/a Citizen Logistics v Amar Transport Inc.",
+        "citation": "2025 CanLII 137593 (ON SCSM)"
+    },
+    {
+        "court_name": "Commission des transports du Québec",
+        "court_acronym": "QCCTQ",
+        "databaseId": "qcctq",
+        "jurisdiction": "qc",
+        "latest_case": "14822854 Canada inc. et Groupe Bell Horizon inc.",
+        "citation": "2026 QCCTQ 88"
+    },
+    {
+        "court_name": "Edmonton Subdivision and Development Appeal Board",
+        "court_acronym": "ABESDAB",
+        "databaseId": "abesdab",
+        "jurisdiction": "ab",
+        "latest_case": "J. Valentine v Development Authority of the City of Edmonton",
+        "citation": "2026 ABESDAB 10017"
+    },
+    {
+        "court_name": "Appeals Commission for Alberta Workers' Compensation",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "abwcac",
+        "jurisdiction": "ab",
+        "latest_case": "Decision No.: 2025-0834",
+        "citation": "2026 CanLII 6283 (AB WCAC)"
+    },
+    {
+        "court_name": "Ontario College of Teachers",
+        "court_acronym": "ONOCT",
+        "databaseId": "onoct",
+        "jurisdiction": "on",
+        "latest_case": "Ontario College of Teachers v Larocque",
+        "citation": "2025 ONOCT 70"
+    },
+    {
+        "court_name": "Supreme Court of Canada - Applications for Leave",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "csc-scc-al",
+        "jurisdiction": "ca",
+        "latest_case": "Ryley Lorne Olynik v. His Majesty the King",
+        "citation": "2026 CanLII 7575 (SCC)"
+    },
+    {
+        "court_name": "Office de la langue française",
+        "court_acronym": "QCOLF",
+        "databaseId": "qcolf",
+        "jurisdiction": "qc",
+        "latest_case": "Regroupement des orthophonistes de La RessourSe c. Centre de réadaptation La RessourSe",
+        "citation": "2000 QCOLF 2"
+    },
+    {
+        "court_name": "Manitoba Securities Commission",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "mbsec",
+        "jurisdiction": "mb",
+        "latest_case": "Wellington-Altus Private Wealth Inc. (Re)",
+        "citation": "2025 CanLII 135943 (MB SEC)"
+    },
+    {
+        "court_name": "Skilled Trades Ontario",
+        "court_acronym": "ONCT",
+        "databaseId": "onst",
+        "jurisdiction": "on",
+        "latest_case": "Ontario College of Trades v Diotalevi",
+        "citation": "2021 ONCT 2"
+    },
+    {
+        "court_name": "Conseil de discipline des Conseillers et conseillères d'orientation du Québec",
+        "court_acronym": "QCCDCO",
+        "databaseId": "qccdccoq",
+        "jurisdiction": "qc",
+        "latest_case": "Conseillers et conseillères d'orientation (Ordre professionnel des) c Maric",
+        "citation": "2023 QCCDCO 4"
+    },
+    {
+        "court_name": "Ontario Fire Safety Commission",
+        "court_acronym": "ONFSC",
+        "databaseId": "onfsc",
+        "jurisdiction": "on",
+        "latest_case": "Lakovnik v Toronto Fire Services",
+        "citation": "2025 ONFSC 52"
+    },
+    {
+        "court_name": "Social Security Tribunal of Canada",
+        "court_acronym": "SST",
+        "databaseId": "sst-tss",
+        "jurisdiction": "ca",
+        "latest_case": "X v Canada Employment Insurance Commission and LF",
+        "citation": "2026 SST 13"
+    },
+    {
+        "court_name": "Health Professions Appeal and Review Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onhparb",
+        "jurisdiction": "on",
+        "latest_case": "Pye v Khan Khalil",
+        "citation": "2026 CanLII 7362 (ON HPARB)"
+    },
+    {
+        "court_name": "Saskatchewan Labour Relations Board",
+        "court_acronym": "SKLRB",
+        "databaseId": "sklrb",
+        "jurisdiction": "sk",
+        "latest_case": "Flannigan v USFA & University of Saskatchewan",
+        "citation": "2026 SKLRB 9"
+    },
+    {
+        "court_name": "Conseil des services essentiels",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qccse",
+        "jurisdiction": "qc",
+        "latest_case": "Sherbrooke (Ville) c Syndicat des cols bleus de la ville de Sherbrooke, section locale 2729",
+        "citation": "2011 CanLII 51142 (QC CSE)"
+    },
+    {
+        "court_name": "Manitoba Human Rights Commission",
+        "court_acronym": "MBHR",
+        "databaseId": "mbhrc",
+        "jurisdiction": "mb",
+        "latest_case": "Smith v New Age Automation Group Inc.",
+        "citation": "2024 MBHR 2"
+    },
+    {
+        "court_name": "Commission des services juridiques",
+        "court_acronym": "QCCSJ",
+        "databaseId": "qccsj",
+        "jurisdiction": "qc",
+        "latest_case": "Anonyme — 2628",
+        "citation": "2026 QCCSJ 28"
+    },
+    {
+        "court_name": "Nova Scotia Court of Appeal",
+        "court_acronym": "NSCA",
+        "databaseId": "nsca",
+        "jurisdiction": "ns",
+        "latest_case": "LeBlanc v. LeBlanc",
+        "citation": "2026 NSCA 8"
+    },
+    {
+        "court_name": "Small Claims Court of the Yukon",
+        "court_acronym": "YKSM",
+        "databaseId": "yksm",
+        "jurisdiction": "yk",
+        "latest_case": "Sembsmoen v Klaveren",
+        "citation": "2026 YKSM 1"
+    },
+    {
+        "court_name": "Supreme Court of Prince Edward Island",
+        "court_acronym": "PESC",
+        "databaseId": "pesctd",
+        "jurisdiction": "pe",
+        "latest_case": "MacDonald v. Tobin",
+        "citation": "2026 PESC 3"
+    },
+    {
+        "court_name": "Supreme Court  of Yukon",
+        "court_acronym": "YKSC",
+        "databaseId": "yksc",
+        "jurisdiction": "yk",
+        "latest_case": "Emery v Yukon Association of",
+        "citation": "2026 YKSC 6"
+    },
+    {
+        "court_name": "Nova Scotia Barristers' Society Hearing Panel",
+        "court_acronym": "NSBS",
+        "databaseId": "nsbs",
+        "jurisdiction": "ns",
+        "latest_case": "The Nova Scotia Barristers’ Society v. Lyle Howe",
+        "citation": "2024 NSBS 2"
+    },
+    {
+        "court_name": "Registered Insurance Brokers of Ontario Discipline Committee",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onribodc",
+        "jurisdiction": "on",
+        "latest_case": "Jaspreet Kaur Uppal",
+        "citation": "2025 CanLII 140461 (ON RIBODC)"
+    },
+    {
+        "court_name": "Edmonton Local Assessment Review Board",
+        "court_acronym": "ABELARB",
+        "databaseId": "abelarb",
+        "jurisdiction": "ab",
+        "latest_case": "Chukwudebelu Nnam v The City of Edmonton",
+        "citation": "2025 ABELARB 2197"
+    },
+    {
+        "court_name": "Saskatchewan College of Pharmacy Professionals",
+        "court_acronym": "SKCPPDC",
+        "databaseId": "skcp",
+        "jurisdiction": "sk",
+        "latest_case": "Saskatchewan College of Pharmacy Professionals v. Yolandi Burnett and Lumsden Drugs Corp.",
+        "citation": "2025 SKCPPDC 2"
+    },
+    {
+        "court_name": "Alcohol and Gaming Commission of Ontario",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onagc",
+        "jurisdiction": "on",
+        "latest_case": "1646886 Ontario Inc (Island Mix Restaurant & Lounge) (Re)",
+        "citation": "2012 CanLII 12161 (ON AGC)"
+    },
+    {
+        "court_name": "Law Society of Saskatchewan",
+        "court_acronym": "SKLSS",
+        "databaseId": "sklss",
+        "jurisdiction": "sk",
+        "latest_case": "Law Society of Saskatchewan v. Filyk",
+        "citation": "2025 SKLSS 3"
+    },
+    {
+        "court_name": "Commission des relations du travail",
+        "court_acronym": "QCCRT",
+        "databaseId": "qccrt",
+        "jurisdiction": "qc",
+        "latest_case": "Courchesne et Commonwealth Plywood ltée",
+        "citation": "2015 QCCRT 719"
+    },
+    {
+        "court_name": "Financial Services Tribunal",
+        "court_acronym": "BCFST",
+        "databaseId": "bcfst",
+        "jurisdiction": "bc",
+        "latest_case": "Matthew Kuras v Superintendent of Real Estate",
+        "citation": "2026 BCFST 1"
+    },
+    {
+        "court_name": "Grievance Settlement Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "ongsb",
+        "jurisdiction": "on",
+        "latest_case": "Ontario Public Service Employees Union (Stansel) v Liquor Control Board of Ontario",
+        "citation": "2026 CanLII 7548 (ON GSB)"
+    },
+    {
+        "court_name": "Ontario Workplace Safety and Insurance Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onwsib",
+        "jurisdiction": "on",
+        "latest_case": "20260001 (Re)",
+        "citation": "2025 CanLII 144158 (ON WSIB)"
+    },
+    {
+        "court_name": "Nova Scotia Police Review Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nsprb",
+        "jurisdiction": "ns",
+        "latest_case": "Stewart (Re)",
+        "citation": "2025 CanLII 111037 (NS PRB)"
+    },
+    {
+        "court_name": "Commission d'appel en matière de lésions professionnelles du Québec",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qccalp",
+        "jurisdiction": "qc",
+        "latest_case": "Formco inc. et Albert",
+        "citation": "1999 CanLII 31603 (QC CALP)"
+    },
+    {
+        "court_name": "Commission québécoise des libérations conditionnelles",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qccqlc",
+        "jurisdiction": "qc",
+        "latest_case": "Maxwell Mudzingwa",
+        "citation": "2026 CanLII 7134 (QC CQLC)"
+    },
+    {
+        "court_name": "New Brunswick Assessment and Planning Appeal Board",
+        "court_acronym": "NBAPAB",
+        "databaseId": "nbapab",
+        "jurisdiction": "nb",
+        "latest_case": "Denis Richard & Jacqueline Poirier-Richard v. Kent Regional Service Commission -",
+        "citation": "2025 NBAPAB 9"
+    },
+    {
+        "court_name": "Canadian Investment Regulatory Organization",
+        "court_acronym": "CIRO",
+        "databaseId": "ciro-ocri",
+        "jurisdiction": "ca",
+        "latest_case": "Re Doherty",
+        "citation": "2026 CIRO 2"
+    },
+    {
+        "court_name": "Ontario College of Early Childhood Educators",
+        "court_acronym": "ONCECE",
+        "databaseId": "oncece",
+        "jurisdiction": "on",
+        "latest_case": "College of Early Childhood Educators v Nathalie Sauvé",
+        "citation": "2025 ONCECE 24"
+    },
+    {
+        "court_name": "Nova Scotia Workers' Compensation Appeals Tribunal",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nswcat",
+        "jurisdiction": "ns",
+        "latest_case": "2025-134-RTH (Re)",
+        "citation": "2026 CanLII 4631 (NS WCAT)"
+    },
+    {
+        "court_name": "Superintendent of Financial Institutions",
+        "court_acronym": "BCSFI",
+        "databaseId": "bcsfi",
+        "jurisdiction": "bc",
+        "latest_case": "BMW Canada Inc. (Re)",
+        "citation": "2025 BCSFI 1"
+    },
+    {
+        "court_name": "Child and Family Services Review Board",
+        "court_acronym": "CFSRB",
+        "databaseId": "oncfsrb",
+        "jurisdiction": "on",
+        "latest_case": "SB v Windsor-Essex Children's Aid Society (CYFSA s.120)",
+        "citation": "2025 CFSRB 172"
+    },
+    {
+        "court_name": "Prince Edward Island Court of Appeal",
+        "court_acronym": "PECA",
+        "databaseId": "pescad",
+        "jurisdiction": "pe",
+        "latest_case": "Gregory v Registrar of Motor Vehicles",
+        "citation": "2026 PECA 2"
+    },
+    {
+        "court_name": "Alberta Securities Commission",
+        "court_acronym": "ABASC",
+        "databaseId": "absec",
+        "jurisdiction": "ab",
+        "latest_case": "Re STEP Energy Services Ltd.",
+        "citation": "2026 ABASC 7"
+    },
+    {
+        "court_name": "College of Psychologists and Behavior Analysts of Ontario",
+        "court_acronym": "ONCPD",
+        "databaseId": "oncpd",
+        "jurisdiction": "on",
+        "latest_case": "Ontario (College of Psychologists and Behaviour Analysts of Ontario) v. Bossin",
+        "citation": "2025 ONCPD 4"
+    },
+    {
+        "court_name": "Ontario Civilian Police Commission",
+        "court_acronym": "ONCPC",
+        "databaseId": "oncpc",
+        "jurisdiction": "on",
+        "latest_case": "Robson v. Waterloo Regional Police Service",
+        "citation": "2025 ONCPC 35"
+    },
+    {
+        "court_name": "Northwest Territories Liquor Licensing Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "ntllb",
+        "jurisdiction": "nt",
+        "latest_case": "Kilt & Castle Pub Inc. (Kilt and Castle Pub) (Re)",
+        "citation": "2018 CanLII 76027 (NTLLB)"
+    },
+    {
+        "court_name": "Chartered Professional Accountants of Ontario",
+        "court_acronym": "ONCPA",
+        "databaseId": "oncpa",
+        "jurisdiction": "on",
+        "latest_case": "Chartered Professional Accountants of Ontario v RZN LLP et al",
+        "citation": "2025 ONCPA 37"
+    },
+    {
+        "court_name": "Office of the Information and Privacy Commissioner for Nova Scotia",
+        "court_acronym": "NSOIPC",
+        "databaseId": "nsfoipop",
+        "jurisdiction": "ns",
+        "latest_case": "Kentville (Town) (Re)",
+        "citation": "2026 NSOIPC 3"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre professionnel des technologistes médicaux du Québec",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qcotmq",
+        "jurisdiction": "qc",
+        "latest_case": "Technologistes médicaux (Ordre professionnel des) c. Hosain",
+        "citation": "2024 CanLII 11308 (QC OTMQ)"
+    },
+    {
+        "court_name": "Court of Appeal of New Brunswick",
+        "court_acronym": "NBCA",
+        "databaseId": "nbca",
+        "jurisdiction": "nb",
+        "latest_case": "Craft v. Habitat for Humanity New Brunswick Inc.",
+        "citation": "2026 NBCA 11"
+    },
+    {
+        "court_name": "Ontario Physician Payment Review Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onpprb",
+        "jurisdiction": "on",
+        "latest_case": "Savin v Ontario (Health Insurance Plan)",
+        "citation": "2019 CanLII 10165 (ON PPRB)"
+    },
+    {
+        "court_name": "Appeal Tribunal under the Medical Profession Act",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "skatmpa",
+        "jurisdiction": "sk",
+        "latest_case": "Green, Re",
+        "citation": "1983 CanLII 2404 (SK ATMPA)"
+    },
+    {
+        "court_name": "Ontario Physicians and Surgeons Discipline Tribunal",
+        "court_acronym": "ONPSDT",
+        "databaseId": "oncps",
+        "jurisdiction": "on",
+        "latest_case": "College of Physicians and Surgeons of Ontario v. Faruqi",
+        "citation": "2026 ONPSDT 4"
+    },
+    {
+        "court_name": "Ontario Physiotherapists Discipline Tribunal",
+        "court_acronym": "ONCPO",
+        "databaseId": "oncpo",
+        "jurisdiction": "on",
+        "latest_case": "Ontario (College of Physiotherapists of Ontario) v Kung",
+        "citation": "2025 ONCPO 79"
+    },
+    {
+        "court_name": "Ontario Licence Appeal Tribunal",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onlat",
+        "jurisdiction": "on",
+        "latest_case": "Alexander v Unifund Assurance Company",
+        "citation": "2026 CanLII 8186 (ON LAT)"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des technologues en imagerie médicale et en radio-oncologie du Québec",
+        "court_acronym": "QCCDTIMROEM",
+        "databaseId": "qcotimro",
+        "jurisdiction": "qc",
+        "latest_case": "Technologues en imagerie médicale, en radio-oncologie et en électrophysiologie médicale (Ordre professionnel des) c. Descôteaux-Simard",
+        "citation": "2025 QCCDTIMROEM 3"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des arpenteurs-géomètres du Québec",
+        "court_acronym": "QCCDAG",
+        "databaseId": "qcoagq",
+        "jurisdiction": "qc",
+        "latest_case": "Arpenteurs-géomètres (Ordre professionnel des) c. Fortin",
+        "citation": "2025 QCCDAG 1"
+    },
+    {
+        "court_name": "Canada Industrial Relations Board",
+        "court_acronym": "CIRB",
+        "databaseId": "cirb",
+        "jurisdiction": "ca",
+        "latest_case": "Chester Javier v Canadian Pacific Railway Company (now known as Canadian Pacific Kansas City Railway),",
+        "citation": "2024 CIRB 1169"
+    },
+    {
+        "court_name": "Territorial Court of Yukon",
+        "court_acronym": "YKTC",
+        "databaseId": "yktc",
+        "jurisdiction": "yk",
+        "latest_case": "R. v. James",
+        "citation": "2026 YKTC 1"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des psychologues du Québec",
+        "court_acronym": "QCCDPSY",
+        "databaseId": "qcopq",
+        "jurisdiction": "qc",
+        "latest_case": "Psychologues (Ordre professionnel des) c. Lebel",
+        "citation": "2025 QCCDPSY 24"
+    },
+    {
+        "court_name": "Ordre des diététistes-nutritionnistes du Québec",
+        "court_acronym": "QCCDDTP",
+        "databaseId": "qcopdq",
+        "jurisdiction": "qc",
+        "latest_case": "Diététistes-nutritionnistes (Ordre professionnel des) c. Cloutier",
+        "citation": "2026 QCCDDTP 1"
+    },
+    {
+        "court_name": "College of Physicians and Surgeons Discipline Committee",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "abcpsdc",
+        "jurisdiction": "ab",
+        "latest_case": "Wilkinson (Re)",
+        "citation": "2025 CanLII 99188 (AB CPSDC)"
+    },
+    {
+        "court_name": "Real Estate Council of British Columbia",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "bcrec",
+        "jurisdiction": "bc",
+        "latest_case": "Yang (Re)",
+        "citation": "2021 CanLII 86354 (BC REC)"
+    },
+    {
+        "court_name": "Financial and Consumer Services Commission",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nbfc",
+        "jurisdiction": "nb",
+        "latest_case": "Louisbourg Investments Inc. (Re)",
+        "citation": "2024 CanLII 94117 (NB FCSC)"
+    },
+    {
+        "court_name": "New Brunswick Energy and Utilities Board",
+        "court_acronym": "NBEUB",
+        "databaseId": "nbeub",
+        "jurisdiction": "nb",
+        "latest_case": "Motor Carrier - The PEI Car Rental Company Inc. (Re)",
+        "citation": "2025 NBEUB 15"
+    },
+    {
+        "court_name": "Ontario Energy Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onoeb",
+        "jurisdiction": "on",
+        "latest_case": "Enbridge Gas Inc. (Re)",
+        "citation": "2025 CanLII 106927 (ON OEB)"
+    },
+    {
+        "court_name": "Capital Markets Tribunal",
+        "court_acronym": "ONCMT",
+        "databaseId": "oncmt",
+        "jurisdiction": "on",
+        "latest_case": "Ontario Securities Commission v Hew",
+        "citation": "2026 ONCMT 5"
+    },
+    {
+        "court_name": "Law Society of Alberta",
+        "court_acronym": "ABLS",
+        "databaseId": "abls",
+        "jurisdiction": "ab",
+        "latest_case": "Law Society of Alberta v Schulz",
+        "citation": "2026 ABLS 2"
+    },
+    {
+        "court_name": "Financial Services Tribunal",
+        "court_acronym": "ONFST",
+        "databaseId": "onfst",
+        "jurisdiction": "on",
+        "latest_case": "Daumier Financial Services Inc o/a Daumier Financial Services LTD., Liset Jimenez Rodriguez, and Carlos Daumier De Zayas Benitez v. Ontario (CEO of FSRA)",
+        "citation": "2026 ONFST 2"
+    },
+    {
+        "court_name": "Edmonton Composite Assessment Review Board",
+        "court_acronym": "ABECARB",
+        "databaseId": "abecarb",
+        "jurisdiction": "ab",
+        "latest_case": "The Governors of the University of Alberta as represented by Canadian Valuation Group Ltd v The City of Edmonton",
+        "citation": "2025 ABECARB 2125"
+    },
+    {
+        "court_name": "British Columbia Liquor and Cannabis Regulation Branch",
+        "court_acronym": "BCLCRB",
+        "databaseId": "bclcrb",
+        "jurisdiction": "bc",
+        "latest_case": "Tailout Brewing Ltd. dba Tailout Brewing (RE)",
+        "citation": "2026 BCLCRB 1"
+    },
+    {
+        "court_name": "Canadian Human Rights Tribunal",
+        "court_acronym": "CHRT",
+        "databaseId": "chrt",
+        "jurisdiction": "ca",
+        "latest_case": "Temate v. Public Health Agency of Canada",
+        "citation": "2026 CHRT 2"
+    },
+    {
+        "court_name": "Labour Arbitration Awards",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nula",
+        "jurisdiction": "nu",
+        "latest_case": "Nunavut and P.S.A.C. (Kellett) (Re)",
+        "citation": "2006 CanLII 93261 (NU LA)"
+    },
+    {
+        "court_name": "Yukon Teachers Labour Relations Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "yttlrb",
+        "jurisdiction": "yk",
+        "latest_case": "Yukon Teachers’ Association v Yukon (Government of)",
+        "citation": "2022 CanLII 140423 (YT TLRB)"
+    },
+    {
+        "court_name": "Toronto Local Appeal Body",
+        "court_acronym": "ONTLAB",
+        "databaseId": "ontlab",
+        "jurisdiction": "on",
+        "latest_case": "Tripi (Re)",
+        "citation": "2026 ONTLAB 390"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre professionnel des denturologistes du Québec",
+        "court_acronym": "QCCDDD",
+        "databaseId": "qcodlq",
+        "jurisdiction": "qc",
+        "latest_case": "Denturologistes (Ordre professionnel des) c. Park",
+        "citation": "2025 QCCDDD 2"
+    },
+    {
+        "court_name": "Labour Arbitration Awards",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "bcla",
+        "jurisdiction": "bc",
+        "latest_case": "British Columbia Emergency Health Services v Ambulance Paramedics of British Columbia – Cupe Local 873",
+        "citation": "2026 CanLII 4944 (BC LA)"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des optométristes du Québec",
+        "court_acronym": "QCCDOOQ",
+        "databaseId": "qcooq",
+        "jurisdiction": "qc",
+        "latest_case": "Optométristes (Ordre professionnel des) c. Marchand",
+        "citation": "2025 QCCDOOQ 2"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre professionnel des orthophonistes et audiologistes du Québec",
+        "court_acronym": "QCCDOAQ",
+        "databaseId": "qcooaq",
+        "jurisdiction": "qc",
+        "latest_case": "Orthophonistes et audiologistes (Ordre professionnel des) c. Lafrenière",
+        "citation": "2024 QCCDOAQ 3"
+    },
+    {
+        "court_name": "Yukon Public Service Labour Relations Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "ytpslrb",
+        "jurisdiction": "yk",
+        "latest_case": "Praprotnik v Government of Yukon",
+        "citation": "2025 CanLII 67704 (YT PSLRB)"
+    },
+    {
+        "court_name": "British Columbia Human Rights Tribunal",
+        "court_acronym": "BCHRT",
+        "databaseId": "bchrt",
+        "jurisdiction": "bc",
+        "latest_case": "Rhodes v. Chilliwack Minor Hockey Association (No. 2)",
+        "citation": "2026 BCHRT 28"
+    },
+    {
+        "court_name": "New Brunswick College of Pharmacists",
+        "court_acronym": "NBCPH",
+        "databaseId": "nbcph",
+        "jurisdiction": "nb",
+        "latest_case": "Ford (Re)",
+        "citation": "2021 NBCPH 1"
+    },
+    {
+        "court_name": "Alberta Human Rights Commission",
+        "court_acronym": "AHRC",
+        "databaseId": "abhrc",
+        "jurisdiction": "ab",
+        "latest_case": "Valencia v Canadian Natural Resources Limited",
+        "citation": "2026 AHRC 8"
+    },
+    {
+        "court_name": "Competition Tribunal",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "cact",
+        "jurisdiction": "ca",
+        "latest_case": "Wonderland - Order amending Scheduling Order",
+        "citation": "2026 CanLII 7617 (CT)"
+    },
+    {
+        "court_name": "Ontario Massage Therapists Discipline Tribunal",
+        "court_acronym": "ONMTDT",
+        "databaseId": "oncmto",
+        "jurisdiction": "on",
+        "latest_case": "College of Massage Therapists of Ontario v. Findlay",
+        "citation": "2026 ONMTDT 2"
+    },
+    {
+        "court_name": "Yellowknife Development Appeal Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "ntydab",
+        "jurisdiction": "nt",
+        "latest_case": "Seale v Municipal Corporation of the City of Yellowknife (Development Authority)",
+        "citation": "2024 CanLII 141533 (NT YDAB)"
+    },
+    {
+        "court_name": "Commissioner of Patents",
+        "court_acronym": "CACP",
+        "databaseId": "cacp",
+        "jurisdiction": "ca",
+        "latest_case": "The Strategic Coach (Re)",
+        "citation": "2025 CACP 14"
+    },
+    {
+        "court_name": "Ship-source Oil Pollution Fund",
+        "court_acronym": "SOPF",
+        "databaseId": "sopf",
+        "jurisdiction": "ca",
+        "latest_case": "Heemskerkgracht",
+        "citation": "2025 SOPF 51"
+    },
+    {
+        "court_name": "Environmental Review Tribunal",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onert",
+        "jurisdiction": "on",
+        "latest_case": "Urbaniak v Ontario (Niagara Escarpment Commission)",
+        "citation": "2021 CanLII 44082 (ON ERT)"
+    },
+    {
+        "court_name": "Automobile Injury Appeal Commission",
+        "court_acronym": "SKAIA",
+        "databaseId": "skaia",
+        "jurisdiction": "sk",
+        "latest_case": "T.A. v. Saskatchewan Government Insurance",
+        "citation": "2025 SKAIA 28"
+    },
+    {
+        "court_name": "College of Physicians and Surgeons of Newfoundland and Labrador",
+        "court_acronym": "NLCPS",
+        "databaseId": "nlcps",
+        "jurisdiction": "nl",
+        "latest_case": "Newfoundland and Labrador (College of Physicians and Surgeons) v. Dr. Zaira Azher",
+        "citation": "2024 NLCPS 4"
+    },
+    {
+        "court_name": "Federal Commission of Inquiry",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "caci",
+        "jurisdiction": "ca",
+        "latest_case": "Décision relative à la preuve étrangère (Commission d'enquête sur les criminels de guerre)",
+        "citation": "1985 CanLII 3187 (CA CE)"
+    },
+    {
+        "court_name": "College of Nurses of Ontario Discipline Committee",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "oncno",
+        "jurisdiction": "on",
+        "latest_case": "College of Nurses of Ontario v Jackson",
+        "citation": "2025 CanLII 114854 (ON CNO)"
+    },
+    {
+        "court_name": "Immigration and Refugee Board of Canada",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "cisr",
+        "jurisdiction": "ca",
+        "latest_case": "Frobel v Canada (Immigration, Refugees and Citizenship)",
+        "citation": "2025 CanLII 140752 (CA IRB)"
+    },
+    {
+        "court_name": "Commission des valeurs mobilières du Québec",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qccvm",
+        "jurisdiction": "qc",
+        "latest_case": "Conseillers de Placements TIP Ltée (Re)",
+        "citation": "2004 CanLII 57094 (QC CVM)"
+    },
+    {
+        "court_name": "Ontario Financial Services Commission - Dispute Resolution Services",
+        "court_acronym": "ONFSCDRS",
+        "databaseId": "onfscdrs",
+        "jurisdiction": "on",
+        "latest_case": "Subashini Yogesvaran v. State Farm Mutual Automobile Insurance Company",
+        "citation": "2020 ONFSCDRS 17"
+    },
+    {
+        "court_name": "Nova Scotia Family Court",
+        "court_acronym": "NSFC",
+        "databaseId": "nsfc",
+        "jurisdiction": "ns",
+        "latest_case": "TY v. AK",
+        "citation": "2023 NSFC 4"
+    },
+    {
+        "court_name": "British Columbia Property Assessment Appeal Board",
+        "court_acronym": "BCPAAB",
+        "databaseId": "bcpaab",
+        "jurisdiction": "bc",
+        "latest_case": "Mann Investment (88 Ave) Ltd v Area 14",
+        "citation": "2026 BCPAAB 20254264"
+    },
+    {
+        "court_name": "Commission de protection du territoire agricole du Québec",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qccptaq",
+        "jurisdiction": "qc",
+        "latest_case": "Camping Coop des Érables de Montmagny",
+        "citation": "2026 CanLII 5949 (QC CPTAQ)"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre professionnel des conseillers en ressources humaines et en relations industrielles agrées du Québec",
+        "court_acronym": "QCCDCRHRI",
+        "databaseId": "qccdrhri",
+        "jurisdiction": "qc",
+        "latest_case": "Conseillers en ressources humaines et en relations industrielles agréés (Ordre professionnel des) c. Hudon",
+        "citation": "2025 QCCDCRHRI 3"
+    },
+    {
+        "court_name": "Saskatchewan Municipal Board",
+        "court_acronym": "SKMB",
+        "databaseId": "sksmb",
+        "jurisdiction": "sk",
+        "latest_case": "Melody Booth v Langham (Town)",
+        "citation": "2026 SKMB 11"
+    },
+    {
+        "court_name": "Alberta Land and Property Rights Tribunal",
+        "court_acronym": "ABLPRT",
+        "databaseId": "ablprt",
+        "jurisdiction": "ab",
+        "latest_case": "Dugdale v Verity Energy Ltd",
+        "citation": "2026 ABLPRT 74"
+    },
+    {
+        "court_name": "Labour Arbitration Awards",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "ntla",
+        "jurisdiction": "nt",
+        "latest_case": "Northwest Territories v Union of Northern Workers",
+        "citation": "2025 CanLII 91062 (NT LA)"
+    },
+    {
+        "court_name": "Pay Equity Commissioner",
+        "court_acronym": "PEC",
+        "databaseId": "pec-ces",
+        "jurisdiction": "ca",
+        "latest_case": "UNIFOR et al. v. WestJet, an Alberta Partnership (Re)",
+        "citation": "2025 PEC 8"
+    },
+    {
+        "court_name": "Régie des alcools des courses et des jeux",
+        "court_acronym": "QCRACJ",
+        "databaseId": "qcracj",
+        "jurisdiction": "qc",
+        "latest_case": "Restaurant La Louisiane inc. (Restaurant La Louisiane)",
+        "citation": "2026 QCRACJ 1"
+    },
+    {
+        "court_name": "Commission de la santé et de la sécurité du travail",
+        "court_acronym": "QCCSST",
+        "databaseId": "qccsst",
+        "jurisdiction": "qc",
+        "latest_case": "Hamel et 9118-8094 Québec inc. (Service RM inc.)",
+        "citation": "2019 QCCSST 1"
+    },
+    {
+        "court_name": "Commission des normes, de l’équité, de la santé et de la sécurité du travail",
+        "court_acronym": "QCCNESST",
+        "databaseId": "qccnesst",
+        "jurisdiction": "qc",
+        "latest_case": "Roy et Coopérative de solidarité en soutien à domicile d'Autray",
+        "citation": "2026 QCCNESST 13"
+    },
+    {
+        "court_name": "Association of Professional Engineers of Ontario",
+        "court_acronym": "ONAPE",
+        "databaseId": "onape",
+        "jurisdiction": "on",
+        "latest_case": "Association of Professional Engineers of Ontario (PEO) v. Aquino",
+        "citation": "2026 ONAPE 1"
+    },
+    {
+        "court_name": "Court of King's Bench for Saskatchewan",
+        "court_acronym": "SKKB",
+        "databaseId": "skkb",
+        "jurisdiction": "sk",
+        "latest_case": "Ozem v Ozem",
+        "citation": "2026 SKKB 25"
+    },
+    {
+        "court_name": "Conservation Review Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onconrb",
+        "jurisdiction": "on",
+        "latest_case": "Black v. Niagara-on-the-Lake (Town)",
+        "citation": "2021 CanLII 44083 (ON CONRB)"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des urbanistes du Québec",
+        "court_acronym": "QCCDURB",
+        "databaseId": "qcouq",
+        "jurisdiction": "qc",
+        "latest_case": "Milette c. Perron",
+        "citation": "2025 QCCDURB 2"
+    },
+    {
+        "court_name": "Court of King's Bench of Manitoba",
+        "court_acronym": "MBKB",
+        "databaseId": "mbkb",
+        "jurisdiction": "mb",
+        "latest_case": "N.S.B. v. A.Q.",
+        "citation": "2026 MBKB 16"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des techniciens et techniciennes dentaires du Québec",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qccdottdq",
+        "jurisdiction": "qc",
+        "latest_case": "Techniciens et techniciennes dentaires (Ordre professionnel des) c Laflamme",
+        "citation": "2015 CanLII 46892 (QC CDOTTDQ)"
+    },
+    {
+        "court_name": "Alberta Public Lands Appeal Board",
+        "court_acronym": "ABPLAB",
+        "databaseId": "abplab",
+        "jurisdiction": "ab",
+        "latest_case": "Alberta River Rats Society v Director, Lands Division, Integrated Land Delivery South, Forestry and Parks",
+        "citation": "2026 ABPLAB 1"
+    },
+    {
+        "court_name": "Ordre professionnel des inhalothérapeutes du Québec",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qcopiq",
+        "jurisdiction": "qc",
+        "latest_case": "Inhalothérapeutes (Ordre professionnel des) c. Thibert",
+        "citation": "2025 CanLII 19524 (QC OPIQ)"
+    },
+    {
+        "court_name": "Tribunal d'arbitrage (RQ and CARRA)",
+        "court_acronym": "QCTA",
+        "databaseId": "qctacarra",
+        "jurisdiction": "qc",
+        "latest_case": "Domagala et Retraite Québec",
+        "citation": "2025 QCTA 526"
+    },
+    {
+        "court_name": "Information and Privacy Commissioner",
+        "court_acronym": "BCIPC",
+        "databaseId": "bcipc",
+        "jurisdiction": "bc",
+        "latest_case": "qathet Regional District (Re)",
+        "citation": "2026 BCIPC 9"
+    },
+    {
+        "court_name": "Youth Justice Court",
+        "court_acronym": "NWTTC",
+        "databaseId": "ntyjc",
+        "jurisdiction": "nt",
+        "latest_case": "R v P.M.",
+        "citation": "2024 NWTTC 8"
+    },
+    {
+        "court_name": "Transportation Appeal Tribunal of Canada",
+        "court_acronym": "TATCE",
+        "databaseId": "tatc",
+        "jurisdiction": "ca",
+        "latest_case": "Jason Sejun Hwang v. Canada (Minister of Transport)",
+        "citation": "2025 TATCE 45"
+    },
+    {
+        "court_name": "Nova Scotia Labour Standards Tribunal",
+        "court_acronym": "NSLST",
+        "databaseId": "nslst",
+        "jurisdiction": "ns",
+        "latest_case": "Boland v IBEW, Local 625",
+        "citation": "2011 NSLST 39"
+    },
+    {
+        "court_name": "Nova Scotia Occupational Health and Safety Appeal Panel",
+        "court_acronym": "NSOHSAP",
+        "databaseId": "nsohsap",
+        "jurisdiction": "ns",
+        "latest_case": "Appellant (Re)",
+        "citation": "2011 NSOHSAP 176"
+    },
+    {
+        "court_name": "Comité de discipline de la Chambre de l'assurance de dommages",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qccdchad",
+        "jurisdiction": "qc",
+        "latest_case": "Chambre de l'assurance de dommages c. De Léon",
+        "citation": "2025 CanLII 47379 (QC CDCHAD)"
+    },
+    {
+        "court_name": "Law Society of Nunavut",
+        "court_acronym": "NULS",
+        "databaseId": "nuls",
+        "jurisdiction": "nu",
+        "latest_case": "Penner (Re)",
+        "citation": "2025 NULS 1"
+    },
+    {
+        "court_name": "Saskatchewan Real Estate Commission",
+        "court_acronym": "SKREC",
+        "databaseId": "skrec",
+        "jurisdiction": "sk",
+        "latest_case": "Stretch (Re)",
+        "citation": "2025 SKREC 32"
+    },
+    {
+        "court_name": "College of Dental Surgeons of British Columbia",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "bccds",
+        "jurisdiction": "bc",
+        "latest_case": "Xu (Re)",
+        "citation": "2019 CanLII 131154 (BC CDS)"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des technologues professionnels du Québec",
+        "court_acronym": "QCCDTP",
+        "databaseId": "qcotpq",
+        "jurisdiction": "qc",
+        "latest_case": "Technologues professionnels (Ordre des) c. Vallée",
+        "citation": "2024 QCCDTP 1"
+    },
+    {
+        "court_name": "Court of Appeal of Quebec",
+        "court_acronym": "QCCA",
+        "databaseId": "qcca",
+        "jurisdiction": "qc",
+        "latest_case": "St-Laurent c. Ruel",
+        "citation": "2026 QCCA 119"
+    },
+    {
+        "court_name": "Saskatchewan Human Rights Commission",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "skhrc",
+        "jurisdiction": "sk",
+        "latest_case": "Nash v. Town of Wolseley",
+        "citation": "2008 CanLII 89770 (SK HRC)"
+    },
+    {
+        "court_name": "Information Commissioner of Canada",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "oic",
+        "jurisdiction": "ca",
+        "latest_case": "Employment and Social Development Canada (Re)",
+        "citation": "2025 CanLII 142634 (CA OIC)"
+    },
+    {
+        "court_name": "Nova Scotia Labour Board",
+        "court_acronym": "NSLB",
+        "databaseId": "nslb",
+        "jurisdiction": "ns",
+        "latest_case": "International Union of Painters and Allied Trades, Local 1439 v Monarch Glazing Atlantic Ltd.",
+        "citation": "2026 NSLB 16"
+    },
+    {
+        "court_name": "Municipal Courts",
+        "court_acronym": "QCCM",
+        "databaseId": "qccm",
+        "jurisdiction": "qc",
+        "latest_case": "Mamarbachi en sa qualité de fiduciaire (Fiducie immobilière Gabriel/Gabriel Realty Trust) c. Ville de Montréal",
+        "citation": "2026 QCCM 4"
+    },
+    {
+        "court_name": "Labour Arbitration Awards",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nsla",
+        "jurisdiction": "ns",
+        "latest_case": "Unifor Local 4606 v Northwood Inc",
+        "citation": "2025 CanLII 132802 (NS LA)"
+    },
+    {
+        "court_name": "Saskatchewan Master of Titles",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "skmt",
+        "jurisdiction": "sk",
+        "latest_case": "In re The Land Titles Act; In re The Arrears of Taxes Act; In re Smith",
+        "citation": "1924 CanLII 874 (SK MT)"
+    },
+    {
+        "court_name": "Ontario Workplace Safety and Insurance Appeals Tribunal",
+        "court_acronym": "ONWSIAT",
+        "databaseId": "onwsiat",
+        "jurisdiction": "on",
+        "latest_case": "Decision No. 986/25",
+        "citation": "2025 ONWSIAT 1439"
+    },
+    {
+        "court_name": "Saskatchewan Human Rights Tribunal",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "skhrt",
+        "jurisdiction": "sk",
+        "latest_case": "Ahpay v. Northwoods Inn & Suites",
+        "citation": "2012 CanLII 151125 (SK HRT)"
+    },
+    {
+        "court_name": "Provincial Court of British Columbia",
+        "court_acronym": "BCPC",
+        "databaseId": "bcpc",
+        "jurisdiction": "bc",
+        "latest_case": "Wiley v. Minit-Tune (Prince George) Ltd.",
+        "citation": "2026 BCPC 21"
+    },
+    {
+        "court_name": "Ontario Custody Review Board",
+        "court_acronym": "ONCRB",
+        "databaseId": "oncrb",
+        "jurisdiction": "on",
+        "latest_case": "Young Person v Provincial Director (CYFSA s.152)",
+        "citation": "2025 ONCRB 86"
+    },
+    {
+        "court_name": "Corporation des maîtres électriciens du Québec",
+        "court_acronym": "QCCMEQ",
+        "databaseId": "qccmeq",
+        "jurisdiction": "qc",
+        "latest_case": "Corporation des maîtres électriciens du Québec (CMEQ) c. Durocher",
+        "citation": "2025 QCCMEQ 15"
+    },
+    {
+        "court_name": "Canadian International Trade Tribunal",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "citt-tcce",
+        "jurisdiction": "ca",
+        "latest_case": "General Starlight Co. Inc. (d.b.a. GSCI Advanced Photonics)",
+        "citation": "2026 CanLII 7601 (CA CITT)"
+    },
+    {
+        "court_name": "Court of King's Bench of Alberta",
+        "court_acronym": "ABKB",
+        "databaseId": "abqb",
+        "jurisdiction": "ab",
+        "latest_case": "2114223 Alberta Ltd v Lougheed",
+        "citation": "2026 ABKB 78"
+    },
+    {
+        "court_name": "Ontario Occupational Therapists Discipline Tribunal",
+        "court_acronym": "ONCOT",
+        "databaseId": "oncoto",
+        "jurisdiction": "on",
+        "latest_case": "Ontario (College of Occupational Therapists of Ontario) v. Kaminski",
+        "citation": "2024 ONCOT 2"
+    },
+    {
+        "court_name": "British Columbia Securities Commission",
+        "court_acronym": "BCSECCOM",
+        "databaseId": "bcsec",
+        "jurisdiction": "bc",
+        "latest_case": "Re Posen",
+        "citation": "2026 BCSECCOM 29"
+    },
+    {
+        "court_name": "Ordre professionnel des géologues du Québec",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qcopgq",
+        "jurisdiction": "qc",
+        "latest_case": "Géologues (Ordre professionnel des) c. Champagne",
+        "citation": "2022 CanLII 115107 (QC OPGQ)"
+    },
+    {
+        "court_name": "Labour Arbitration Awards",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "ytla",
+        "jurisdiction": "yk",
+        "latest_case": "Yukon and Beacon, Re",
+        "citation": "1990 CanLII 12692 (YT LA)"
+    },
+    {
+        "court_name": "New Brunswick Labour and Employment Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nbleb",
+        "jurisdiction": "nb",
+        "latest_case": "Harrison v United Steelworkers, Local 8215",
+        "citation": "2025 CanLII 142630 (NB LEB)"
+    },
+    {
+        "court_name": "Law Society of Manitoba",
+        "court_acronym": "MBLS",
+        "databaseId": "mbls",
+        "jurisdiction": "mb",
+        "latest_case": "The Law Society of Manitoba v VYAMUCHARO-SHAWA",
+        "citation": "2025 MBLS 5"
+    },
+    {
+        "court_name": "Nova Scotia Labour Relations Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nslrb",
+        "jurisdiction": "ns",
+        "latest_case": "United Brotherhood of Carpenters and Joiners of America Local 83 v Mr. Darrell Spears c.o.b. as SCF Services Incorporated",
+        "citation": "2018 CanLII 151975 (NS LRB)"
+    },
+    {
+        "court_name": "Labour Arbitration Awards",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "skla",
+        "jurisdiction": "sk",
+        "latest_case": "Canadian Union of Public Employees, Local 160 (Mike Stead) v Prince Albert (City)\n\nUnion",
+        "citation": "2026 CanLII 2683 (SK LA)"
+    },
+    {
+        "court_name": "Manitoba Labour Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "mblb",
+        "jurisdiction": "mb",
+        "latest_case": "10088339 Manitoba Ltd. v Manitoba Government and General Employees’ Union",
+        "citation": "2025 CanLII 142655 (MB LB)"
+    },
+    {
+        "court_name": "Comité de discipline de la Chambre de l’assurance",
+        "court_acronym": "QCCDCHA",
+        "databaseId": "qccdcha",
+        "jurisdiction": "qc",
+        "latest_case": "Chambre de l'assurance c. Grimard-Moisan",
+        "citation": "2025 QCCDCHA 17"
+    },
+    {
+        "court_name": "Alberta Court of Justice",
+        "court_acronym": "ABCJ",
+        "databaseId": "abpc",
+        "jurisdiction": "ab",
+        "latest_case": "R v Maize",
+        "citation": "2026 ABCJ 17"
+    },
+    {
+        "court_name": "Labour Arbitration Awards",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "mbla",
+        "jurisdiction": "mb",
+        "latest_case": "UFCW, Local 832 v Instabox Winnipeg Ltd.",
+        "citation": "2025 CanLII 58722 (MB LA)"
+    },
+    {
+        "court_name": "Law Society of the Northwest Territories",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "ntls",
+        "jurisdiction": "nt",
+        "latest_case": "Tomic (Re)",
+        "citation": "2025 CanLII 141767 (NWT LS)"
+    },
+    {
+        "court_name": "Alberta Environmental Appeal Board",
+        "court_acronym": "ABEAB",
+        "databaseId": "abeab",
+        "jurisdiction": "ab",
+        "latest_case": "Clover Bar Sand & Gravel Ltd. et al. v Director, Environmental Enforcement Branch, Investigations Regulatory Assurance Division, Alberta Environment and Protected Areas",
+        "citation": "2026 ABEAB 3"
+    },
+    {
+        "court_name": "Criminal Injuries Compensation Board",
+        "court_acronym": "ONCICB",
+        "databaseId": "oncicb",
+        "jurisdiction": "on",
+        "latest_case": "(Re) 1811-04258",
+        "citation": "2021 ONCICB 6"
+    },
+    {
+        "court_name": "Board of Inquiry Under the Human Rights Act",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nbbihra",
+        "jurisdiction": "nb",
+        "latest_case": "Bryson v. University of New Brunswick (No. 3)",
+        "citation": "2016 CanLII 154162 (NB BHR)"
+    },
+    {
+        "court_name": "Public Servants Disclosure Protection Tribunal",
+        "court_acronym": "PSDPT",
+        "databaseId": "capsdpt",
+        "jurisdiction": "ca",
+        "latest_case": "Martel v Global Affairs Canada",
+        "citation": "2025 PSDPT 1"
+    },
+    {
+        "court_name": "Law Society of New Brunswick",
+        "court_acronym": "NBLSB",
+        "databaseId": "nbls",
+        "jurisdiction": "nb",
+        "latest_case": "Law Society of New Brunswick v. MacDonald",
+        "citation": "2024 NBLSB 11"
+    },
+    {
+        "court_name": "Agriculture, Food & Rural Affairs Appeal Tribunal",
+        "court_acronym": "ONAFRAAT",
+        "databaseId": "onafraat",
+        "jurisdiction": "on",
+        "latest_case": "Norfolk County (RE)",
+        "citation": "2026 ONAFRAAT 1"
+    },
+    {
+        "court_name": "Alberta Law Enforcement Review Board",
+        "court_acronym": "ABLERB",
+        "databaseId": "ablerb",
+        "jurisdiction": "ab",
+        "latest_case": "Robinson v Medicine Hat (Police Service)",
+        "citation": "2026 ABLERB 3"
+    },
+    {
+        "court_name": "Labour Arbitration Awards",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nbla",
+        "jurisdiction": "nb",
+        "latest_case": "International Brotherhood of Electrical Workers, Local 37 v New Brunswick Power Corporation",
+        "citation": "2026 CanLII 23 (NB LA)"
+    },
+    {
+        "court_name": "Labour Arbitration Awards",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "pela",
+        "jurisdiction": "pe",
+        "latest_case": "University of Prince Edward Island Faculty Association v University of Prince Edward Island",
+        "citation": "2024 CanLII 80671 (PE LA)"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des audioprothésistes du Québec",
+        "court_acronym": "QCCDAP",
+        "databaseId": "qcoapq",
+        "jurisdiction": "qc",
+        "latest_case": "Audioprothésistes (Ordre professionnel des) c. Gasnal",
+        "citation": "2025 QCCDAP 7"
+    },
+    {
+        "court_name": "British Columbia Review Board",
+        "court_acronym": "BCRB",
+        "databaseId": "bcrb",
+        "jurisdiction": "bc",
+        "latest_case": "Cappadocia (Re)",
+        "citation": "2025 BCRB 246"
+    },
+    {
+        "court_name": "Commission d'accès à l'information",
+        "court_acronym": "QCCAI",
+        "databaseId": "qccai",
+        "jurisdiction": "qc",
+        "latest_case": "Dionne c. Ville de Lavaltrie",
+        "citation": "2026 QCCAI 55"
+    },
+    {
+        "court_name": "Tribunal d'arbitrage (performing, recording and film artists)",
+        "court_acronym": "QCTA",
+        "databaseId": "qctaa",
+        "jurisdiction": "qc",
+        "latest_case": "Union des artistes et Vega Musique inc.  (grief syndical)",
+        "citation": "2025 QCTA 465"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des opticiens d'ordonnances du Québec",
+        "court_acronym": "QCCDOOD",
+        "databaseId": "qccdoooq",
+        "jurisdiction": "qc",
+        "latest_case": "Opticiens d'ordonnances (Ordre professionnel des) c. Diogène",
+        "citation": "2025 QCCDOOD 2"
+    },
+    {
+        "court_name": "Labour Relations Board",
+        "court_acronym": "BCLRB",
+        "databaseId": "bclrb",
+        "jurisdiction": "bc",
+        "latest_case": "Executive Inn Inc.",
+        "citation": "2026 BCLRB 33"
+    },
+    {
+        "court_name": "Nova Scotia Securities Commission",
+        "court_acronym": "NSSEC",
+        "databaseId": "nssec",
+        "jurisdiction": "ns",
+        "latest_case": "Beringco Int’l Group Inc., et. al. (Re)",
+        "citation": "2025 NSSEC 5"
+    },
+    {
+        "court_name": "Mining and Lands Tribunal",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onmlc",
+        "jurisdiction": "on",
+        "latest_case": "IAMGOLD Corporation v Treelawn Capital Corp.",
+        "citation": "2021 CanLII 26650 (ON MLT)"
+    },
+    {
+        "court_name": "Saskatchewan Provincial Mediation Board",
+        "court_acronym": "SKPMB",
+        "databaseId": "skpmb",
+        "jurisdiction": "sk",
+        "latest_case": "Knight CPA Prof. v I.B.E.W. Land Holdings",
+        "citation": "2025 SKPMB 1"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre professionnel des traducteurs, terminologues et interprètes agréés du Québec",
+        "court_acronym": "QCCDTTIA",
+        "databaseId": "qcottiaq",
+        "jurisdiction": "qc",
+        "latest_case": "Traducteurs, terminologues et interprètes (Ordre professionnel des) c. Isaev",
+        "citation": "2025 QCCDTTIA 1"
+    },
+    {
+        "court_name": "Canada Energy Regulator",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "cer-rec",
+        "jurisdiction": "ca",
+        "latest_case": "Application for the Pouce Coupé Pipe Line Ltd. NPS 10 Kiskatinaw River Replacement under section 214 of the Canadian Energy Regulator Act and section 45.1 of the Canadian Energy Regulator Onshore Pipeline Regulations",
+        "citation": "2026 CanLII 5006 (CA CER)"
+    },
+    {
+        "court_name": "Ombud New Brunswick",
+        "court_acronym": "NBOMBUD",
+        "databaseId": "nbomb",
+        "jurisdiction": "nb",
+        "latest_case": "Municipalité des Hautes-Terres (Re)",
+        "citation": "2025 NBOMBUD 2"
+    },
+    {
+        "court_name": "Labour Arbitration Awards",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "casa-cala",
+        "jurisdiction": "ca",
+        "latest_case": "Syndicat québécois des employés de telus, section locale 5044 – SCFP c Telus communication inc.",
+        "citation": "2026 CanLII 7602 (CA SA)"
+    },
+    {
+        "court_name": "Tribunal administratif du travail",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qctat",
+        "jurisdiction": "qc",
+        "latest_case": "Cayer et Syndicat de la fonction publique et parapublique du Québec inc.",
+        "citation": "2026 CanLII 7994 (QC TAT)"
+    },
+    {
+        "court_name": "Court of Quebec",
+        "court_acronym": "QCCQ",
+        "databaseId": "qccq",
+        "jurisdiction": "qc",
+        "latest_case": "Fédération des caisses Desjardins du Québec c. Barry",
+        "citation": "2026 QCCQ 347"
+    },
+    {
+        "court_name": "Administrative Tribunal of Québec",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qctaq",
+        "jurisdiction": "qc",
+        "latest_case": "J.F. (Tuteur de B.F.) c. Ministre responsable de la Solidarité sociale et de l'Action communautaire",
+        "citation": "2026 CanLII 8007 (QC TAQ)"
+    },
+    {
+        "court_name": "Superior Court",
+        "court_acronym": "QCCS",
+        "databaseId": "qccs",
+        "jurisdiction": "qc",
+        "latest_case": "9403-8387 Québec inc. c. Antidote Média inc.",
+        "citation": "2026 QCCS 298"
+    },
+    {
+        "court_name": "Ontario Chiropodists and Podiatrists Discipline Tribunal",
+        "court_acronym": "ONCPDT",
+        "databaseId": "oncocoo",
+        "jurisdiction": "on",
+        "latest_case": "College of Chiropodists of Ontario v Procope",
+        "citation": "2026 ONCPDT 2"
+    },
+    {
+        "court_name": "Labour Commissioner",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qcct",
+        "jurisdiction": "qc",
+        "latest_case": "Bourgoin et Alza Canada",
+        "citation": "2002 CanLII 76525 (QC CT)"
+    },
+    {
+        "court_name": "Court of King's Bench of New Brunswick",
+        "court_acronym": "NBKB",
+        "databaseId": "nbkb",
+        "jurisdiction": "nb",
+        "latest_case": "Kalinowski v Jordan",
+        "citation": "2026 NBKB 17"
+    },
+    {
+        "court_name": "Trademarks Opposition Board",
+        "court_acronym": "TMOB",
+        "databaseId": "tmob",
+        "jurisdiction": "ca",
+        "latest_case": "Merizzi Ramsbottom & Forster v Beijing DiDi Infinity Technology Development Co., Ltd.",
+        "citation": "2026 TMOB 17"
+    },
+    {
+        "court_name": "Comité de discipline de l'organisme d'autoréglementation du courtage immobilier du Québec",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qcoaciq",
+        "jurisdiction": "qc",
+        "latest_case": "Organisme d'autoréglementation du courtage immobilier du Québec c. Julien",
+        "citation": "2026 CanLII 6696 (QC OACIQ)"
+    },
+    {
+        "court_name": "Municipal Integrity Commissioners of Ontario",
+        "court_acronym": "ONMIC",
+        "databaseId": "onmic",
+        "jurisdiction": "on",
+        "latest_case": "Noel v Harrison",
+        "citation": "2025 ONMIC 8"
+    },
+    {
+        "court_name": "Court of Appeal for Ontario",
+        "court_acronym": "ONCA",
+        "databaseId": "onca",
+        "jurisdiction": "on",
+        "latest_case": "Murray v. Toronto-Dominion Bank",
+        "citation": "2026 ONCA 81"
+    },
+    {
+        "court_name": "Provincial Court of Nova Scotia",
+        "court_acronym": "NSPC",
+        "databaseId": "nspc",
+        "jurisdiction": "ns",
+        "latest_case": "R. v. MacQuarrie",
+        "citation": "2026 NSPC 5"
+    },
+    {
+        "court_name": "Real Estate Council of Alberta",
+        "court_acronym": "ABRECA",
+        "databaseId": "abreca",
+        "jurisdiction": "ab",
+        "latest_case": "Al-Hamidi (Re)",
+        "citation": "2025 ABRECA 34"
+    },
+    {
+        "court_name": "College of Veterinarians of Ontario",
+        "court_acronym": "ONCVO",
+        "databaseId": "oncvo",
+        "jurisdiction": "on",
+        "latest_case": "College of Veterinarians of Ontario v. Brar",
+        "citation": "2025 ONCVO 11"
+    },
+    {
+        "court_name": "Specific Claims Tribunal Canada",
+        "court_acronym": "SCTC",
+        "databaseId": "sct-trp",
+        "jurisdiction": "ca",
+        "latest_case": "Qayqayt First Nation v. His Majesty the King in Right of Canada",
+        "citation": "2025 SCTC 10"
+    },
+    {
+        "court_name": "Assessment Review Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onarb",
+        "jurisdiction": "on",
+        "latest_case": "Marshall v Municipal Property Assessment Corporation Region 23",
+        "citation": "2026 CanLII 5001 (ON ARB)"
+    },
+    {
+        "court_name": "Alberta Labour Relations Board",
+        "court_acronym": "ALRB",
+        "databaseId": "ablrb",
+        "jurisdiction": "ab",
+        "latest_case": "Anderberg v United Association of Journeymen and Apprentices of the Plumbing and Pipefitting Industry of the United States and Canada, Local Union No. 488",
+        "citation": "2026 ALRB 19"
+    },
+    {
+        "court_name": "Labour Arbitration Awards (including Conférence des arbitres)",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qcdag",
+        "jurisdiction": "qc",
+        "latest_case": "Syndicat des Employé-e-s de Métiers d’Hydro-Québec Section locale 1500-SCFP-FTQ c Hydro-Québec",
+        "citation": "2026 CanLII 8086 (QC SAT)"
+    },
+    {
+        "court_name": "Prince Edward Island Regulatory & Appeals Commission",
+        "court_acronym": "PEIRAC",
+        "databaseId": "peirac",
+        "jurisdiction": "pe",
+        "latest_case": "Amber Kennific v. Charlottetown Area Housing Authority",
+        "citation": "2025 PEIRAC 69"
+    },
+    {
+        "court_name": "Saskatchewan Local Government Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "sklgb",
+        "jurisdiction": "sk",
+        "latest_case": "Hillier v. Regina (City)",
+        "citation": "1932 CanLII 194 (SK LGB)"
+    },
+    {
+        "court_name": "College of Traditional Chinese Medicine Practitioners and Acupuncturists of Ontario",
+        "court_acronym": "ONCTCMPAO",
+        "databaseId": "onctcmpao",
+        "jurisdiction": "on",
+        "latest_case": "Ontario (College  of Traditional Chinese  Medicine Practitioners & Acupuncturists of Ontario) v Mohmed Shoeb M Chikhlikar",
+        "citation": "2025 ONCTCMPAO 29"
+    },
+    {
+        "court_name": "Superintendent of Pensions",
+        "court_acronym": "BCSP",
+        "databaseId": "bcsp",
+        "jurisdiction": "bc",
+        "latest_case": "GML Mechanical Ltd. (Re)",
+        "citation": "2022 BCSP 5"
+    },
+    {
+        "court_name": "Northwest Territories Employment Standards Appeals",
+        "court_acronym": "NTESA",
+        "databaseId": "ntlsb",
+        "jurisdiction": "nt",
+        "latest_case": "GHL v RM",
+        "citation": "2024 NTESA 2"
+    },
+    {
+        "court_name": "Provincial Court of Manitoba",
+        "court_acronym": "MBPC",
+        "databaseId": "mbpc",
+        "jurisdiction": "mb",
+        "latest_case": "R. v. Seenie",
+        "citation": "2026 MBPC 4"
+    },
+    {
+        "court_name": "Provincial Court of Saskatchewan",
+        "court_acronym": "SKPC",
+        "databaseId": "skpc",
+        "jurisdiction": "sk",
+        "latest_case": "R v Ledoux",
+        "citation": "2026 SKPC 1"
+    },
+    {
+        "court_name": "Supreme Court of British Columbia",
+        "court_acronym": "BCSC",
+        "databaseId": "bcsc",
+        "jurisdiction": "bc",
+        "latest_case": "Pan Pacific Business Corporation v Mirage Trading Corporation",
+        "citation": "2026 BCSC 179"
+    },
+    {
+        "court_name": "Alberta Grievance Arbitration Awards",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "abgaa",
+        "jurisdiction": "ab",
+        "latest_case": "Governors of the University of Alberta v Graduate Students’ Association of the University of Alberta",
+        "citation": "2026 CanLII 3029 (AB GAA)"
+    },
+    {
+        "court_name": "Divisional Court",
+        "court_acronym": "ONSC",
+        "databaseId": "onscdc",
+        "jurisdiction": "on",
+        "latest_case": "Jackson v. College of Nurses",
+        "citation": "2026 ONSC 697"
+    },
+    {
+        "court_name": "Territorial Court of the Northwest Territories",
+        "court_acronym": "NWTC",
+        "databaseId": "nttc",
+        "jurisdiction": "nt",
+        "latest_case": "R. v. Stewart Tourangeau",
+        "citation": "2025 NWTC 6"
+    },
+    {
+        "court_name": "Régie du Bâtiment - licences d'entrepreneur de construction",
+        "court_acronym": "QCRBQ",
+        "databaseId": "qcrbq",
+        "jurisdiction": "qc",
+        "latest_case": "Régie du bâtiment du Québec et Chap",
+        "citation": "2026 QCRBQ 6"
+    },
+    {
+        "court_name": "Workers’ Compensation Appeals Tribunal",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nbwhscc",
+        "jurisdiction": "nb",
+        "latest_case": "20260944 (Re)",
+        "citation": "2026 CanLII 2692 (NB WCAT)"
+    },
+    {
+        "court_name": "Northwest Territories Assessment Appeal Tribunal",
+        "court_acronym": "NWTAAT",
+        "databaseId": "ntaat",
+        "jurisdiction": "nt",
+        "latest_case": "Government of Northwest Territories (Department of Municipal and Community Affairs) v. His Majesty the King in Right of Canada, as represented by the Minister of Public Services and Procurement Canada (Western Region)",
+        "citation": "2024 NWTAAT 3"
+    },
+    {
+        "court_name": "Royal College of Dental Surgeons of Ontario",
+        "court_acronym": "ONRCDSO",
+        "databaseId": "onrcdso",
+        "jurisdiction": "on",
+        "latest_case": "Royal College of Dental Surgeons of Ontario v Gewarges",
+        "citation": "2026 ONRCDSO 1"
+    },
+    {
+        "court_name": "Northwest Territories Office of Superintendent of Securities",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "ntsec",
+        "jurisdiction": "nt",
+        "latest_case": "Blanket Order 51-932 (Re)",
+        "citation": "2025 CanLII 102167 (NT SEC)"
+    },
+    {
+        "court_name": "Skilled Trades BC Appeal Board",
+        "court_acronym": "BCITAB",
+        "databaseId": "bcitab",
+        "jurisdiction": "bc",
+        "latest_case": "Arnold Brent Pausch v. Gary Herman",
+        "citation": "2014 BCITAB 1"
+    },
+    {
+        "court_name": "Provincial Court of New Brunswick",
+        "court_acronym": "NBPC",
+        "databaseId": "nbpc",
+        "jurisdiction": "nb",
+        "latest_case": "R v Willis",
+        "citation": "2025 NBPC 10"
+    },
+    {
+        "court_name": "Financial Planning Canada Standards Council",
+        "court_acronym": "FPCA",
+        "databaseId": "fpca",
+        "jurisdiction": "ca",
+        "latest_case": "FP Canada Standards Council v Somers",
+        "citation": "2025 FPCA 24"
+    },
+    {
+        "court_name": "Commission de l'équité salariale",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qcces",
+        "jurisdiction": "qc",
+        "latest_case": "Commission de l’équité salariale et L’Isle-Verte (Municipalité de)",
+        "citation": "2015 CanLII 94593 (QC CES)"
+    },
+    {
+        "court_name": "Ontario Court of the Drainage Referee",
+        "court_acronym": "ONDR",
+        "databaseId": "ondr",
+        "jurisdiction": "on",
+        "latest_case": "White v Niagara Falls (City)",
+        "citation": "2025 ONDR 13"
+    },
+    {
+        "court_name": "Office of the Registrar of Lobbyists",
+        "court_acronym": "BCORL",
+        "databaseId": "bcorl",
+        "jurisdiction": "bc",
+        "latest_case": "Matthews (Re)",
+        "citation": "2025 BCORL 10"
+    },
+    {
+        "court_name": "Yukon Human Rights Commission (Board of Adjudication)",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "ykhrc",
+        "jurisdiction": "yk",
+        "latest_case": "Budge v. Talbot Arm Motel Ltd.",
+        "citation": "2018 CanLII 153095 (YK HRC)"
+    },
+    {
+        "court_name": "Provincial Court of Prince Edward Island",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "pepc",
+        "jurisdiction": "pe",
+        "latest_case": "R. v. Lauer (J.M.)",
+        "citation": "2009 CanLII 101169 (PE PC)"
+    },
+    {
+        "court_name": "Community Care and Assisted Living Appeal Board",
+        "court_acronym": "BCCCALAB",
+        "databaseId": "bcccalab",
+        "jurisdiction": "bc",
+        "latest_case": "Kerry Williams (Keystone Recovery Society) v Sue Bedford, Assisted Living Registrar (Delegate)",
+        "citation": "2025 BCCCALAB 2"
+    },
+    {
+        "court_name": "Supreme Court of Newfoundland and Labrador",
+        "court_acronym": "NLSC",
+        "databaseId": "nlsctd",
+        "jurisdiction": "nl",
+        "latest_case": "Rentokil Canada Corporation v. Pretty",
+        "citation": "2026 NLSC 10"
+    },
+    {
+        "court_name": "Saskatchewan Municipal Boards of Revision",
+        "court_acronym": "SKMBR",
+        "databaseId": "skmbr",
+        "jurisdiction": "sk",
+        "latest_case": "Hobbins v. Lajord No. 128 (Rural Municipality)",
+        "citation": "2018 SKMBR 1280006"
+    },
+    {
+        "court_name": "Supreme Court of the Northwest Territories",
+        "court_acronym": "NWTSC",
+        "databaseId": "ntsc",
+        "jurisdiction": "nt",
+        "latest_case": "C(L) v D(B)",
+        "citation": "2026 NWTSC 6"
+    },
+    {
+        "court_name": "Ontario Registered Psychotherapists Discipline Tribunal",
+        "court_acronym": "ONRPDT",
+        "databaseId": "oncrpo",
+        "jurisdiction": "on",
+        "latest_case": "College of Registered Psychotherapists and Registered Mental Health Therapists of Ontario v Masud",
+        "citation": "2026 ONRPDT 3"
+    },
+    {
+        "court_name": "Court of Appeal of Newfoundland and Labrador",
+        "court_acronym": "NLCA",
+        "databaseId": "nlca",
+        "jurisdiction": "nl",
+        "latest_case": "R. v Wells",
+        "citation": "2026 NLCA 2"
+    },
+    {
+        "court_name": "Rental Officer",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "ntro",
+        "jurisdiction": "nt",
+        "latest_case": "NRR v RV",
+        "citation": "2025 CanLII 116815 (NWT RO)"
+    },
+    {
+        "court_name": "Information and Privacy Commissioner",
+        "court_acronym": "NUIPC",
+        "databaseId": "nuipc",
+        "jurisdiction": "nu",
+        "latest_case": "Department of Community Services (Re)",
+        "citation": "2025 NUIPC 16"
+    },
+    {
+        "court_name": "Horse Racing Appeal Panel",
+        "court_acronym": "ON HRAP",
+        "databaseId": "onhrap",
+        "jurisdiction": "on",
+        "latest_case": "McPherson (Re)",
+        "citation": "2026 CanLII 8134 (ON HRAP)"
+    },
+    {
+        "court_name": "Ontario Court of Justice",
+        "court_acronym": "ONCJ",
+        "databaseId": "oncj",
+        "jurisdiction": "on",
+        "latest_case": "Felix Perez v. Samuel",
+        "citation": "2026 ONCJ 53"
+    },
+    {
+        "court_name": "Canada Agricultural Review Tribunal",
+        "court_acronym": "CART",
+        "databaseId": "cart-crac",
+        "jurisdiction": "ca",
+        "latest_case": "1230890 Ontario Limited v Canadian Food Inspection Agency",
+        "citation": "2026 CART 3"
+    },
+    {
+        "court_name": "Forest Appeals Commission",
+        "court_acronym": "BCFAC",
+        "databaseId": "bcfac",
+        "jurisdiction": "bc",
+        "latest_case": "Cassiar Forest Corp. v Government of British Columbia",
+        "citation": "2026 BCFAC 2"
+    },
+    {
+        "court_name": "Nova Scotia Probate Court",
+        "court_acronym": "NSSC",
+        "databaseId": "nspr",
+        "jurisdiction": "ns",
+        "latest_case": "Hawes (Estate of) v. Hawes",
+        "citation": "2024 NSSC 161"
+    },
+    {
+        "court_name": "Tribunal administratif de déontologie policière",
+        "court_acronym": "QCTADP",
+        "databaseId": "qccdp",
+        "jurisdiction": "qc",
+        "latest_case": "Commissaire à la déontologie policière c. Collard",
+        "citation": "2026 QCTADP 9"
+    },
+    {
+        "court_name": "College of Optometrists of Ontario",
+        "court_acronym": "ONCO",
+        "databaseId": "onco",
+        "jurisdiction": "on",
+        "latest_case": "Ontario (College of Optometrists of Ontario) v. Zhang",
+        "citation": "2024 ONCO 1"
+    },
+    {
+        "court_name": "Court of Appeal of Yukon",
+        "court_acronym": "YKCA",
+        "databaseId": "ykca",
+        "jurisdiction": "yk",
+        "latest_case": "Yukon (Government of) v. Tarka",
+        "citation": "2026 YKCA 2"
+    },
+    {
+        "court_name": "Human Rights Tribunal",
+        "court_acronym": "QCTDP",
+        "databaseId": "qctdp",
+        "jurisdiction": "qc",
+        "latest_case": "Commission des droits de la personne et des droits de la jeunesse (Sangare) c. Ville de Montréal (Service de police de la Ville de Montreal)",
+        "citation": "2026 QCTDP 4"
+    },
+    {
+        "court_name": "Commission municipale du Québec",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qccmnq",
+        "jurisdiction": "qc",
+        "latest_case": "Coopérative de soutien à domicile de Laval et Ville de Laval",
+        "citation": "2025 CanLII 130724 (QC CMNQ)"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre professionnel de la physiothérapie du Québec",
+        "court_acronym": "QCCDOPPQ",
+        "databaseId": "qcoppq",
+        "jurisdiction": "qc",
+        "latest_case": "Marine c. Physiothérapie (Ordre professionnel de la)",
+        "citation": "2025 QCCDOPPQ 5"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des infirmières et infirmiers du Québec",
+        "court_acronym": "QCCDINF",
+        "databaseId": "qccdoii",
+        "jurisdiction": "qc",
+        "latest_case": "Infirmières et infirmiers (Ordre professionnel des) c. Khiar",
+        "citation": "2025 QCCDINF 22"
+    },
+    {
+        "court_name": "Saskatchewan Workers’ Compensation Board Appeal Tribunal",
+        "court_acronym": "SKWCBAT",
+        "databaseId": "skwcbat",
+        "jurisdiction": "sk",
+        "latest_case": "26-0857-01 (Re)",
+        "citation": "2026 SKWCBAT 101"
+    },
+    {
+        "court_name": "Northwest Territories Information and Privacy Commissioner",
+        "court_acronym": "NTIPC",
+        "databaseId": "ntipc",
+        "jurisdiction": "nt",
+        "latest_case": "Northwest Territories Health and Social Services Authority (Re)",
+        "citation": "2026 NTIPC 127"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des architectes du Québec",
+        "court_acronym": "QCCDARC",
+        "databaseId": "qcoarq",
+        "jurisdiction": "qc",
+        "latest_case": "Architectes (Ordre professionnel des) c. Vaccaro",
+        "citation": "2025 QCCDARC 3"
+    },
+    {
+        "court_name": "College of Physicians & Surgeons of Manitoba Discipline Committee",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "mbcpsdc",
+        "jurisdiction": "mb",
+        "latest_case": "Elves (Re)",
+        "citation": "2023 CanLII 111735 (MB CPSDC)"
+    },
+    {
+        "court_name": "Foreign reported decisions",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "forep",
+        "jurisdiction": "ca",
+        "latest_case": "Foy v. Brooks",
+        "citation": "1976 CanLII 1948 (FOREP)"
+    },
+    {
+        "court_name": "Supreme Court of Nova Scotia",
+        "court_acronym": "NSSC",
+        "databaseId": "nssc",
+        "jurisdiction": "ns",
+        "latest_case": "Brooks v. Griggs",
+        "citation": "2026 NSSC 42"
+    },
+    {
+        "court_name": "British Columbia College of Oral Health Professionals",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "bccohp",
+        "jurisdiction": "bc",
+        "latest_case": "Biddle (Re)",
+        "citation": "2025 CanLII 95619 (BC COHP)"
+    },
+    {
+        "court_name": "Supreme Court of Nova Scotia (Family Division)",
+        "court_acronym": "NSSF",
+        "databaseId": "nssf",
+        "jurisdiction": "ns",
+        "latest_case": "Gardner v. Gardner",
+        "citation": "2005 NSSF 17"
+    },
+    {
+        "court_name": "Small Claims Court",
+        "court_acronym": "NSSM",
+        "databaseId": "nssm",
+        "jurisdiction": "ns",
+        "latest_case": "Kordolemis v. Sobeys Capital Incorporated",
+        "citation": "2026 NSSM 1"
+    },
+    {
+        "court_name": "Normal Farm Practices Protection Board",
+        "court_acronym": "ONNFPPB",
+        "databaseId": "onnfppb",
+        "jurisdiction": "on",
+        "latest_case": "Darrin Smith v Norfolk County(RE)",
+        "citation": "2025 ONNFPPB 5"
+    },
+    {
+        "court_name": "Calgary Subdivision & Development Appeal Board",
+        "court_acronym": "CGYSDAB",
+        "databaseId": "absdab",
+        "jurisdiction": "ab",
+        "latest_case": "SDAB2026-0001 (Re)",
+        "citation": "2026 CGYSDAB 1"
+    },
+    {
+        "court_name": "British Columbia Environmental Appeal Board",
+        "court_acronym": "BCEAB",
+        "databaseId": "bceab",
+        "jurisdiction": "bc",
+        "latest_case": "Southtrac Holdings Ltd. v Assistant Water Manager",
+        "citation": "2026 BCEAB 8"
+    },
+    {
+        "court_name": "Nova Scotia Human Rights Commission",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nshrc",
+        "jurisdiction": "ns",
+        "latest_case": "Dorrington v A J Acheson Sales Ltd. o/a Canadian Tire",
+        "citation": "2025 CanLII 114860 (NS HRC)"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des infirmières et infirmiers auxiliaires du Québec",
+        "court_acronym": "QCCDIA",
+        "databaseId": "qccdoiia",
+        "jurisdiction": "qc",
+        "latest_case": "Infirmières et infirmiers auxiliaires (Ordre professionnel des) c. Boulianne-Flamand",
+        "citation": "2026 QCCDIA 1"
+    },
+    {
+        "court_name": "Manitoba Health Appeal Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "mbhab",
+        "jurisdiction": "mb",
+        "latest_case": "Appellant v Manitoba Health, Seniors and Long-term Care, Insurance Division",
+        "citation": "2026 CanLII 7354 (MB HAB)"
+    },
+    {
+        "court_name": "Commission de reconnaissance des associations d'artistes et des associations de producteurs",
+        "court_acronym": "CRAAAP",
+        "databaseId": "qccraaap",
+        "jurisdiction": "qc",
+        "latest_case": "Union des artistes c. Festival international de jazz de Montréal",
+        "citation": "2008 CRAAAP 440"
+    },
+    {
+        "court_name": "Ontario Labour Relations Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onlrb",
+        "jurisdiction": "on",
+        "latest_case": "Thornhill Nursery School v Caitlin Robertson",
+        "citation": "2026 CanLII 7352 (ON LRB)"
+    },
+    {
+        "court_name": "Comité de discipline de la Chambre de la sécurité financière",
+        "court_acronym": "QCCDCSF",
+        "databaseId": "qccdcsf",
+        "jurisdiction": "qc",
+        "latest_case": "Chambre de la sécurité financière c. Verreault",
+        "citation": "2025 QCCDCSF 7"
+    },
+    {
+        "court_name": "Alberta Occupational Health and Safety Appeal Body",
+        "court_acronym": "ABOHSAB",
+        "databaseId": "abohsab",
+        "jurisdiction": "ab",
+        "latest_case": "JBS Food Canada ULC v Occupational Health and Safety",
+        "citation": "2026 ABOHSAB 2"
+    },
+    {
+        "court_name": "Saskatchewan Office of Residential Tenancies",
+        "court_acronym": "SKORT",
+        "databaseId": "skort",
+        "jurisdiction": "sk",
+        "latest_case": "Saskatoon Housing Authority v Cooke",
+        "citation": "2026 SKORT 8"
+    },
+    {
+        "court_name": "Youth Justice Court of Nunavut",
+        "court_acronym": "YJCN",
+        "databaseId": "nuyc",
+        "jurisdiction": "nu",
+        "latest_case": "R. v. SP",
+        "citation": "2014 YJCN 1"
+    },
+    {
+        "court_name": "Ontario Audiologists and Speech-Language Pathologists Discipline Tribunal",
+        "court_acronym": "ONASLPDT",
+        "databaseId": "oncaspd",
+        "jurisdiction": "on",
+        "latest_case": "College of Audiologists and Speech-Language Pathologists of Ontario v Berge",
+        "citation": "2025 ONASLPDT 6"
+    },
+    {
+        "court_name": "British Columbia Workers' Compensation Appeal Tribunal",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "bcwcat",
+        "jurisdiction": "bc",
+        "latest_case": "A2401764 (Re)",
+        "citation": "2025 CanLII 142575 (BC WCAT)"
+    },
+    {
+        "court_name": "Energy Resource Appeal Tribunal",
+        "court_acronym": "BCERAT",
+        "databaseId": "bcogat",
+        "jurisdiction": "bc",
+        "latest_case": "Loiselle Investments Ltd. and 507788 BC Ltd. v. BC Energy Regulator",
+        "citation": "2025 BCERAT 2"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des ingénieurs du Québec",
+        "court_acronym": "QCCDING",
+        "databaseId": "qccdoiq",
+        "jurisdiction": "qc",
+        "latest_case": "Ingénieurs (Ordre professionnel des) c. Gélinas",
+        "citation": "2026 QCCDING 2"
+    },
+    {
+        "court_name": "Human Rights Adjudication Panel",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nthrap",
+        "jurisdiction": "nt",
+        "latest_case": "A.C. v Hay River Health and Social Services Authority",
+        "citation": "2025 CanLII 79088 (NT HRAP)"
+    },
+    {
+        "court_name": "British Columbia Hospital Appeal Board",
+        "court_acronym": "BCHAB",
+        "databaseId": "bchab",
+        "jurisdiction": "bc",
+        "latest_case": "Dr. Jannah Wilson v Vancouver Coastal Health Authority",
+        "citation": "2026 BCHAB 1"
+    },
+    {
+        "court_name": "Judicial Committee of the Privy Council - Canadian cases",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "ukpc",
+        "jurisdiction": "ca",
+        "latest_case": "Ponoka-Calmar Oils Ltd. et al. v. Earl F. Wakefield Co. et al.",
+        "citation": "1959 CanLII 427 (UK JCPC)"
+    },
+    {
+        "court_name": "Nova Scotia Energy and Regulatory Boards Tribunal",
+        "court_acronym": "NSRAB",
+        "databaseId": "nsuarb",
+        "jurisdiction": "ns",
+        "latest_case": "Kings Transit Authority (Re)",
+        "citation": "2026 NSRAB 22"
+    },
+    {
+        "court_name": "Ordre des hygiénistes dentaires du Québec",
+        "court_acronym": "QCCDHD",
+        "databaseId": "qcohdq",
+        "jurisdiction": "qc",
+        "latest_case": "Hygiénistes dentaires (Ordre professionnel des) c. Charbonneau",
+        "citation": "2025 QCCDHD 4"
+    },
+    {
+        "court_name": "Federal Court of Appeal",
+        "court_acronym": "FCA",
+        "databaseId": "fca",
+        "jurisdiction": "ca",
+        "latest_case": "Meglobal Canada Ulc v. Canada",
+        "citation": "2026 FCA 24"
+    },
+    {
+        "court_name": "Régie de l'énergie",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qcrde",
+        "jurisdiction": "qc",
+        "latest_case": "Énergir et Association des consommateurs industriels de gaz (ACIG)",
+        "citation": "2026 CanLII 7499 (QC RDE)"
+    },
+    {
+        "court_name": "Mutual Fund Dealers Association of Canada",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "camfda",
+        "jurisdiction": "ca",
+        "latest_case": "Re Batla",
+        "citation": "2023 CanLII 147055 (CA MFDAC)"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre professionnel des ingénieurs forestiers du Québec",
+        "court_acronym": "QCCDINGF",
+        "databaseId": "qcoifq",
+        "jurisdiction": "qc",
+        "latest_case": "Ingénieurs forestiers (Ordre professionnel des) c. Bertrand",
+        "citation": "2025 QCCDINGF 6"
+    },
+    {
+        "court_name": "Tribunal administratif du logement",
+        "court_acronym": "QCTAL",
+        "databaseId": "qcrdl",
+        "jurisdiction": "qc",
+        "latest_case": "Lemire c. Ricard",
+        "citation": "2026 QCTAL 3050"
+    },
+    {
+        "court_name": "Federal Court",
+        "court_acronym": "FC",
+        "databaseId": "fct",
+        "jurisdiction": "ca",
+        "latest_case": "Canada (Public Safety and Emergency Preparedness) v. A.B.",
+        "citation": "2026 FC 168"
+    },
+    {
+        "court_name": "Newfoundland and Labrador Labour Relations Board",
+        "court_acronym": "NLLRB",
+        "databaseId": "nllrb",
+        "jurisdiction": "nl",
+        "latest_case": "Association of Seafood Producers Inc. v. Rough Water Traps Inc.",
+        "citation": "2025 NLLRB 24"
+    },
+    {
+        "court_name": "Public Service Labour Relations Board",
+        "court_acronym": "PSLRB",
+        "databaseId": "pssrb",
+        "jurisdiction": "ca",
+        "latest_case": "Prior v. Canada Revenue Agency",
+        "citation": "2014 PSLRB 96"
+    },
+    {
+        "court_name": "Saskatchewan Board of Review under the Farmers' Creditors Arrangement Act, 1934",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "skfca",
+        "jurisdiction": "sk",
+        "latest_case": "Sherstofbetoff (Re)",
+        "citation": "1945 CanLII 128 (SK FCA)"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des sexologues du Québec",
+        "court_acronym": "QCCDSEXO",
+        "databaseId": "qcopsq",
+        "jurisdiction": "qc",
+        "latest_case": "Sexologues (Ordre professionnel des) c. Lavallée",
+        "citation": "2025 QCCDSEXO 6"
+    },
+    {
+        "court_name": "Nunavut Registrar of Securities",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nusec",
+        "jurisdiction": "nu",
+        "latest_case": "Blanket Order No. 8",
+        "citation": "2005 CanLII 60092 (NU SEC)"
+    },
+    {
+        "court_name": "Commission de la fonction publique",
+        "court_acronym": "QCCFP",
+        "databaseId": "qccfp",
+        "jurisdiction": "qc",
+        "latest_case": "Dubé et Ministère de l'Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs",
+        "citation": "2026 QCCFP 5"
+    },
+    {
+        "court_name": "Labour Arbitration Awards",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nlla",
+        "jurisdiction": "nl",
+        "latest_case": "Amalgamated Transit Union, Local 1462 v St. John’s Transportation Commission (Metrobus)",
+        "citation": "2025 CanLII 113345 (NL LA)"
+    },
+    {
+        "court_name": "Local Planning Appeal Tribunal",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onmb",
+        "jurisdiction": "on",
+        "latest_case": "1071 KG Inc. v Toronto (City)",
+        "citation": "2022 CanLII 73945 (ON LPAT)"
+    },
+    {
+        "court_name": "Investment Industry Regulatory Organization of Canada",
+        "court_acronym": "IIROC",
+        "databaseId": "caiiroc",
+        "jurisdiction": "ca",
+        "latest_case": "Re Danielak",
+        "citation": "2023 IIROC 5"
+    },
+    {
+        "court_name": "College of Physicians and Surgeons of Nova Scotia",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nscps",
+        "jurisdiction": "ns",
+        "latest_case": "Perchik (Re)",
+        "citation": "2026 CanLII 1583 (NS CPS)"
+    },
+    {
+        "court_name": "Ontario Boundaries Act Hearings",
+        "court_acronym": "ONBAH",
+        "databaseId": "onbah",
+        "jurisdiction": "on",
+        "latest_case": "Amlani v. Golparvary",
+        "citation": "2023 ONBAH 1"
+    },
+    {
+        "court_name": "Alberta Transportation Safety Board",
+        "court_acronym": "ABTSB",
+        "databaseId": "abtsb",
+        "jurisdiction": "ab",
+        "latest_case": "Singh (Re)",
+        "citation": "2021 ABTSB 2481"
+    },
+    {
+        "court_name": "Ontario Social Benefits Tribunal",
+        "court_acronym": "ONSBT",
+        "databaseId": "onsbt",
+        "jurisdiction": "on",
+        "latest_case": "2506-04009 (Re)",
+        "citation": "2025 ONSBT 4274"
+    },
+    {
+        "court_name": "Exchequer Court of Canada",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "exchc-cech",
+        "jurisdiction": "ca",
+        "latest_case": "Swiss Bank Corp. v. M.N.R.",
+        "citation": "1971 CanLII 2071 (CA EXC)"
+    },
+    {
+        "court_name": "Consent and Capacity Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onccb",
+        "jurisdiction": "on",
+        "latest_case": "DS (Re)",
+        "citation": "2025 CanLII 121115 (ON CCB)"
+    },
+    {
+        "court_name": "College of Immigration and Citizenship Consultants",
+        "court_acronym": "CICC",
+        "databaseId": "iccrc",
+        "jurisdiction": "ca",
+        "latest_case": "CICC v Alavi",
+        "citation": "2026 CICC 6"
+    },
+    {
+        "court_name": "Ontario Pay Equity Hearings Tribunal",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onpeht",
+        "jurisdiction": "on",
+        "latest_case": "IAM Union v Metrolinx",
+        "citation": "2026 CanLII 2411 (ON PEHT)"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des dentistes du Québec",
+        "court_acronym": "QCCDODQ",
+        "databaseId": "qcodq",
+        "jurisdiction": "qc",
+        "latest_case": "Dentistes (Ordre professionnel des) c. Lessard",
+        "citation": "2025 QCCDODQ 25"
+    },
+    {
+        "court_name": "Alberta Land Compensation Board",
+        "court_acronym": "ABLCB",
+        "databaseId": "ablcb",
+        "jurisdiction": "ab",
+        "latest_case": "Haluszka v Alberta (Infrastructure)",
+        "citation": "2021 ABLCB 1"
+    },
+    {
+        "court_name": "Public Service Staffing Tribunal",
+        "court_acronym": "PSST",
+        "databaseId": "psst",
+        "jurisdiction": "ca",
+        "latest_case": "Béland-Falardeau v. Chairperson of the Immigration and Refugee Board",
+        "citation": "2014 PSST 18"
+    },
+    {
+        "court_name": "Information and Privacy Commissioner Ontario",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onipc",
+        "jurisdiction": "on",
+        "latest_case": "Complaint HA25-00135 (Re)",
+        "citation": "2026 CanLII 7532 (ON IPC)"
+    },
+    {
+        "court_name": "Ontario Land Tribunal",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onlt",
+        "jurisdiction": "on",
+        "latest_case": "2708971 Ontario Inc. v Vaughan (City)",
+        "citation": "2026 CanLII 7238 (ON LT)"
+    },
+    {
+        "court_name": "Conseil de la magistrature",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qccmq",
+        "jurisdiction": "qc",
+        "latest_case": "A et Juge, Cour du Québec, Chambre de la jeunesse",
+        "citation": "2026 CanLII 2198 (QC CM)"
+    },
+    {
+        "court_name": "Ontario Animal Care Review Board",
+        "court_acronym": "ONACRB",
+        "databaseId": "onacrb",
+        "jurisdiction": "on",
+        "latest_case": "Terry Peterson v. Chief Animal Welfare Inspector",
+        "citation": "2026 ONACRB 211"
+    },
+    {
+        "court_name": "Superintendent of Real Estate",
+        "court_acronym": "BCSRE",
+        "databaseId": "bcsre",
+        "jurisdiction": "bc",
+        "latest_case": "Roy (Re)",
+        "citation": "2025 BCSRE 105"
+    },
+    {
+        "court_name": "Civil Resolution Tribunal of British Columbia",
+        "court_acronym": "BCCRT",
+        "databaseId": "bccrt",
+        "jurisdiction": "bc",
+        "latest_case": "Lazic v. ICBC",
+        "citation": "2026 BCCRT 202"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des administrateurs agréés du Québec",
+        "court_acronym": "QCCDADMA",
+        "databaseId": "qcadmaq",
+        "jurisdiction": "qc",
+        "latest_case": "Administrateurs agréés (Ordre professionnel des) c. Tremblay",
+        "citation": "2021 QCCDADMA 2"
+    },
+    {
+        "court_name": "Health Services Appeal and Review Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onhsarb",
+        "jurisdiction": "on",
+        "latest_case": "Rana v Ontario (Health Insurance Plan)",
+        "citation": "2026 CanLII 2456 (ON HSARB)"
+    },
+    {
+        "court_name": "Labour Arbitration Awards",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onla",
+        "jurisdiction": "on",
+        "latest_case": "Canadian Union of Public Employees, Local 2250 v Good Samaritan Seniors Complex",
+        "citation": "2026 CanLII 8189 (ON LA)"
+    },
+    {
+        "court_name": "British Columbia Container Trucking Commissioner",
+        "court_acronym": "BCCTC",
+        "databaseId": "bcctc",
+        "jurisdiction": "bc",
+        "latest_case": "Lally Bros. Holding Ltd. (Re)",
+        "citation": "2025 BCCTC 65"
+    },
+    {
+        "court_name": "SafeRoads Alberta",
+        "court_acronym": "ABSRA",
+        "databaseId": "absra",
+        "jurisdiction": "ab",
+        "latest_case": "Tilahun (Re)",
+        "citation": "2026 ABSRA 2"
+    },
+    {
+        "court_name": "Privacy Commissioner of Canada",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "pcc-cvpc",
+        "jurisdiction": "ca",
+        "latest_case": "Investigation into the privacy practices of Staples Canada ULC related to electronic devices to be resold as part of its Openbox program",
+        "citation": "2025 CanLII 142726 (PCC)"
+    },
+    {
+        "court_name": "Alberta Surface Rights Board",
+        "court_acronym": "ABSRB",
+        "databaseId": "absrb",
+        "jurisdiction": "ab",
+        "latest_case": "Hansel v Canadian Oil & Gas International Inc",
+        "citation": "2021 ABSRB 1216"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des chiropraticiens du Québec",
+        "court_acronym": "QCCDCHIR",
+        "databaseId": "qcocq",
+        "jurisdiction": "qc",
+        "latest_case": "Chiropraticiens (Ordre professionnel des) c. Lamb",
+        "citation": "2026 QCCDCHIR 2"
+    },
+    {
+        "court_name": "Conseil de discipline des psychoéducateurs et psychoéducatrices du Québec",
+        "court_acronym": "QCCDPSED",
+        "databaseId": "qccdppq",
+        "jurisdiction": "qc",
+        "latest_case": "Psychoéducateurs et psychoéducatrices (Ordre professionnel des) c. Giard",
+        "citation": "2026 QCCDPSED 2"
+    },
+    {
+        "court_name": "Yukon Residential Tenancies Office",
+        "court_acronym": "YTRTO",
+        "databaseId": "ytrto",
+        "jurisdiction": "yk",
+        "latest_case": "S.K.B v M.A.",
+        "citation": "2025 YTRTO 3"
+    },
+    {
+        "court_name": "Ontario College of Pharmacists Discipline Committee",
+        "court_acronym": "ONCPDC",
+        "databaseId": "oncpdc",
+        "jurisdiction": "on",
+        "latest_case": "Ontario (College of Pharmacists) v. Kaldus",
+        "citation": "2026 ONCPDC 3"
+    },
+    {
+        "court_name": "Commission des lésions professionnelles du Québec",
+        "court_acronym": "QCCLP",
+        "databaseId": "qcclp",
+        "jurisdiction": "qc",
+        "latest_case": "M.G. et Compagnie A",
+        "citation": "2015 QCCLP 6917"
+    },
+    {
+        "court_name": "Calgary Assessment Review Board",
+        "court_acronym": "ABCGYARB",
+        "databaseId": "abcgyarb",
+        "jurisdiction": "ab",
+        "latest_case": "CARB 196131M-2025 (Re)",
+        "citation": "2025 ABCGYARB 2196131"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des médecins vétérinaires du Québec",
+        "court_acronym": "QCCDMV",
+        "databaseId": "qccdomv",
+        "jurisdiction": "qc",
+        "latest_case": "Médecins vétérinaires (Ordre professionnel des) c. Salhi",
+        "citation": "2025 QCCDMV 2"
+    },
+    {
+        "court_name": "Law Society Tribunal",
+        "court_acronym": "ONLSTH",
+        "databaseId": "onlst",
+        "jurisdiction": "on",
+        "latest_case": "Law Society of Ontario v Kivlichan",
+        "citation": "2026 ONLSTH 21"
+    },
+    {
+        "court_name": "Alberta Municipal Government Board",
+        "court_acronym": "ABMGB",
+        "databaseId": "abmgb",
+        "jurisdiction": "ab",
+        "latest_case": "Neimans v Lethbridge County (Development Authority)",
+        "citation": "2021 ABMGB 49"
+    },
+    {
+        "court_name": "Tax Court of Canada",
+        "court_acronym": "TCC",
+        "databaseId": "cci-tcc",
+        "jurisdiction": "ca",
+        "latest_case": "Caddell v. The King",
+        "citation": "2026 TCC 27"
+    },
+    {
+        "court_name": "Nunavut Human Rights Tribunal",
+        "court_acronym": "NHRT",
+        "databaseId": "nuhrt",
+        "jurisdiction": "nu",
+        "latest_case": "Petaulassie v. Hamlet of Cape Dorset",
+        "citation": "2012 NHRT 2"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre professionnel des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec",
+        "court_acronym": "QCCDTSTCF",
+        "databaseId": "qcotstcfq",
+        "jurisdiction": "qc",
+        "latest_case": "Travailleurs sociaux et des thérapeutes conjugaux et familiaux (Ordre professionnel des) c. Clotteau",
+        "citation": "2026 QCCDTSTCF 4"
+    },
+    {
+        "court_name": "Ontario Public Service Grievance Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "onpsgb",
+        "jurisdiction": "on",
+        "latest_case": "Ramirez v Ontario (Solicitor General)",
+        "citation": "2026 CanLII 7537 (ON PSGB)"
+    },
+    {
+        "court_name": "Landlord and Tenant Board",
+        "court_acronym": "ONLTB",
+        "databaseId": "onltb",
+        "jurisdiction": "on",
+        "latest_case": "Mastropietro v Nahmias",
+        "citation": "2026 ONLTB 7176"
+    },
+    {
+        "court_name": "Condominium Authority Tribunal",
+        "court_acronym": "ONCAT",
+        "databaseId": "oncat",
+        "jurisdiction": "on",
+        "latest_case": "He v. Halton Standard Condominium Corporation No. 28",
+        "citation": "2026 ONCAT 18"
+    },
+    {
+        "court_name": "Prince Edward Island Human Rights Commission",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "peihrc",
+        "jurisdiction": "pe",
+        "latest_case": "Milligan v Maczak Holdings Ltd,",
+        "citation": "2023 CanLII 90442 (PE HRC)"
+    },
+    {
+        "court_name": "Prince Edward Island Labour Relations Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "pelrb",
+        "jurisdiction": "pe",
+        "latest_case": "Shea v Police Association of Nova Scotia, Local 301",
+        "citation": "2025 CanLII 142834 (PE LRB)"
+    },
+    {
+        "court_name": "Information and Privacy Commissioner",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nlipc",
+        "jurisdiction": "nl",
+        "latest_case": "Newfoundland and Labrador Hydro (Re)",
+        "citation": "2025 CanLII 133606 (NL IPC)"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des agronomes du Québec",
+        "court_acronym": "QCCDAGR",
+        "databaseId": "qcagq",
+        "jurisdiction": "qc",
+        "latest_case": "Agronomes (Ordre professionnel des) c. Coddington",
+        "citation": "2026 QCCDAGR 1"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre professionnel des évaluateurs agréés du Québec",
+        "court_acronym": "QCCDEA",
+        "databaseId": "qcoeaq",
+        "jurisdiction": "qc",
+        "latest_case": "Évaluateurs agréés (Ordre professionnel des) c. Turgeon",
+        "citation": "2025 QCCDEA 3"
+    },
+    {
+        "court_name": "Calgary Licence and Community Standards Appeal Board",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "ablcsab",
+        "jurisdiction": "ab",
+        "latest_case": "Heth v Calgary (City)",
+        "citation": "2026 CanLII 2109 (AB LCSAB)"
+    },
+    {
+        "court_name": "Occupational Health and Safety Tribunal Canada",
+        "court_acronym": "OHSTC",
+        "databaseId": "ohstc",
+        "jurisdiction": "ca",
+        "latest_case": "Turner et al. v. Canada Border Services Agency",
+        "citation": "2022 OHSTC 3"
+    },
+    {
+        "court_name": "Copyright Board of Canada",
+        "court_acronym": "CB",
+        "databaseId": "cbc",
+        "jurisdiction": "ca",
+        "latest_case": "SOCAN Tariff 5.A – Exhibitions and Fairs (2025-2027) and SOCAN Tariff 5.B – Concerts at Exhibitions and Fairs (2022-2027)",
+        "citation": "2025 CB 21"
+    },
+    {
+        "court_name": "Arbitration - The Guarantee Plan For New Residential Buildings",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qcoagbrn",
+        "jurisdiction": "qc",
+        "latest_case": "Mayer et Construction Savco inc.",
+        "citation": "2026 CanLII 7150 (QC OAGBRN)"
+    },
+    {
+        "court_name": "Collège des médecins du Québec Disciplinary Council",
+        "court_acronym": "QCCDMD",
+        "databaseId": "qccdcm",
+        "jurisdiction": "qc",
+        "latest_case": "Cherif c. Benoit",
+        "citation": "2026 QCCDMD 1"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des acupuncteurs du Québec",
+        "court_acronym": "QCCDAC",
+        "databaseId": "qcoaq",
+        "jurisdiction": "qc",
+        "latest_case": "Acupuncteurs (Ordre professionnel des) c. Bonaldo Bégnoche",
+        "citation": "2025 QCCDAC 6"
+    },
+    {
+        "court_name": "Veterans Review and Appeal Board of Canada",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "vrab",
+        "jurisdiction": "ca",
+        "latest_case": "100006015272 (Re)",
+        "citation": "2026 CanLII 6356 (CA VRAB)"
+    },
+    {
+        "court_name": "Canadian Broadcast Standards Council",
+        "court_acronym": "CBSC",
+        "databaseId": "cbsc-ccnr",
+        "jurisdiction": "ca",
+        "latest_case": "Sportsnet Ontario re Sportsnet Central",
+        "citation": "2025 CBSC 1"
+    },
+    {
+        "court_name": "Conseil de la justice administrative",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "qccja",
+        "jurisdiction": "qc",
+        "latest_case": "Thibault et Leclerc",
+        "citation": "2025 CanLII 52685 (QC CJA)"
+    },
+    {
+        "court_name": "Conseil de discipline de l'Ordre des pharmaciens du Québec",
+        "court_acronym": "QCCDPHA",
+        "databaseId": "qccdopq",
+        "jurisdiction": "qc",
+        "latest_case": "Pharmaciens (Ordre professionnel des) c. Ngan",
+        "citation": "2026 QCCDPHA 1"
+    },
+    {
+        "court_name": "Horse Racing Alberta Appeal Tribunal",
+        "court_acronym": "ABHRAAT",
+        "databaseId": "abhraat",
+        "jurisdiction": "ab",
+        "latest_case": "Callaghan v Horse Racing Alberta",
+        "citation": "2025 ABHRAAT 25"
+    },
+    {
+        "court_name": "Office of the Information and Privacy Commissioner",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "aboipc",
+        "jurisdiction": "ab",
+        "latest_case": "Workers’ Compensation Board (Re)",
+        "citation": "2026 CanLII 3394 (AB OIPC)"
+    },
+    {
+        "court_name": "Law Society of Newfoundland and Labrador",
+        "court_acronym": "UNKNOWN",
+        "databaseId": "nlls",
+        "jurisdiction": "nl",
+        "latest_case": "Martin (Re)",
+        "citation": "2025 CanLII 100407 (NL LS)"
+    },
+    {
+        "court_name": "Supreme Court of Canada",
+        "court_acronym": "SCC",
+        "databaseId": "csc-scc",
+        "jurisdiction": "ca",
+        "latest_case": "R. v. Fox",
+        "citation": "2026 SCC 4"
+    },
+    {
+        "court_name": "Barreau du Québec  Disciplinary Council",
+        "court_acronym": "QCCDBQ",
+        "databaseId": "qccdbq",
+        "jurisdiction": "qc",
+        "latest_case": "Martin c. Bakary",
+        "citation": "2025 QCCDBQ 149"
+    }
+]

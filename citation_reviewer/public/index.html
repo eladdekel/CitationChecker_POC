@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Citation Reviewer | Legal Document Analysis Dashboard</title>
+  <meta name="description"
+    content="Review and validate citations from court PDF documents. Mark citations as verified, fraudulent, or ignored with detailed tracking.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="app">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <div class="logo-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5" />
+              <path d="M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <span class="logo-text">Citation<br />Reviewer</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-item active" data-view="dashboard" id="nav-dashboard">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="7" height="7" />
+            <rect x="14" y="3" width="7" height="7" />
+            <rect x="14" y="14" width="7" height="7" />
+            <rect x="3" y="14" width="7" height="7" />
+          </svg>
+          <span>Dashboard</span>
+        </a>
+        <a href="#" class="nav-item" data-view="files" id="nav-files">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+            <line x1="16" y1="13" x2="8" y2="13" />
+            <line x1="16" y1="17" x2="8" y2="17" />
+          </svg>
+          <span>Files</span>
+        </a>
+        <a href="#" class="nav-item" data-view="citations" id="nav-citations">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+            <line x1="12" y1="17" x2="12.01" y2="17" />
+          </svg>
+          <span>All Citations</span>
+        </a>
+        <a href="#" class="nav-item" data-view="flagged" id="nav-flagged">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
+            <line x1="4" y1="22" x2="4" y2="15" />
+          </svg>
+          <span>Flagged</span>
+          <span class="badge" id="flagged-count">0</span>
+        </a>
+        <a href="#" class="nav-item" data-view="reviewed" id="nav-reviewed">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+            <polyline points="22 4 12 14.01 9 11.01" />
+          </svg>
+          <span>Reviewed</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="stats-mini">
+          <div class="stat-item">
+            <span class="stat-label">Files</span>
+            <span class="stat-value" id="stat-files">-</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Reviewed</span>
+            <span class="stat-value" id="stat-reviewed">-</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header class="header">
+        <div class="header-left">
+          <button class="menu-toggle" id="menu-toggle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </button>
+          <h1 class="page-title" id="page-title">Dashboard</h1>
+        </div>
+        <div class="header-right">
+          <div class="search-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <input type="text" placeholder="Search citations, files..." id="search-input">
+          </div>
+          <button class="refresh-btn" id="refresh-btn" title="Refresh data">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="23 4 23 10 17 10" />
+              <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <!-- Dashboard View -->
+      <section class="view active" id="view-dashboard">
+        <div class="stats-grid">
+          <div class="stat-card stat-card-primary">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+              </svg>
+            </div>
+            <div class="stat-content">
+              <span class="stat-value" id="dashboard-files">0</span>
+              <span class="stat-label">Total Files</span>
+            </div>
+          </div>
+          <div class="stat-card stat-card-secondary">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                <line x1="12" y1="17" x2="12.01" y2="17" />
+              </svg>
+            </div>
+            <div class="stat-content">
+              <span class="stat-value" id="dashboard-citations">0</span>
+              <span class="stat-label">Citation Instances</span>
+            </div>
+          </div>
+          <div class="stat-card stat-card-success">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+            </div>
+            <div class="stat-content">
+              <span class="stat-value" id="dashboard-ok">0</span>
+              <span class="stat-label">Verified OK</span>
+            </div>
+          </div>
+          <div class="stat-card stat-card-danger">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="15" y1="9" x2="9" y2="15" />
+                <line x1="9" y1="9" x2="15" y2="15" />
+              </svg>
+            </div>
+            <div class="stat-content">
+              <span class="stat-value" id="dashboard-fraud">0</span>
+              <span class="stat-label">Fraudulent</span>
+            </div>
+          </div>
+          <div class="stat-card stat-card-warning">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="8" x2="12" y2="12" />
+                <line x1="12" y1="16" x2="12.01" y2="16" />
+              </svg>
+            </div>
+            <div class="stat-content">
+              <span class="stat-value" id="dashboard-ignore">0</span>
+              <span class="stat-label">Ignored</span>
+            </div>
+          </div>
+          <div class="stat-card stat-card-info">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="20" x2="12" y2="10" />
+                <line x1="18" y1="20" x2="18" y2="4" />
+                <line x1="6" y1="20" x2="6" y2="16" />
+              </svg>
+            </div>
+            <div class="stat-content">
+              <span class="stat-value" id="dashboard-progress">0%</span>
+              <span class="stat-label">Review Progress</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-sections">
+          <div class="section-card">
+            <h2 class="section-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
+                <line x1="4" y1="22" x2="4" y2="15" />
+              </svg>
+              Recent Flagged Citations
+            </h2>
+            <div class="recent-list" id="recent-flagged">
+              <div class="loading">Loading...</div>
+            </div>
+          </div>
+          <div class="section-card">
+            <h2 class="section-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              Recent Reviews
+            </h2>
+            <div class="recent-list" id="recent-reviews">
+              <div class="loading">Loading...</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Files View -->
+      <section class="view" id="view-files">
+        <div class="table-container">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Filename</th>
+                <th>Court No.</th>
+                <th>Style of Cause</th>
+                <th>Nature</th>
+                <th>Citations</th>
+                <th>Reviewed</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="files-tbody">
+              <tr>
+                <td colspan="8" class="loading">Loading files...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Single File Detail View -->
+      <section class="view" id="view-file-detail">
+        <div class="file-header" id="file-detail-header">
+          <button class="back-btn" onclick="window.app.showView('files')">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="19" y1="12" x2="5" y2="12" />
+              <polyline points="12 19 5 12 12 5" />
+            </svg>
+            Back to Files
+          </button>
+          <div class="file-info" id="file-info"></div>
+        </div>
+        <div class="file-summary" id="file-summary"></div>
+        <div class="citations-list" id="file-citations"></div>
+      </section>
+
+      <!-- All Citations View -->
+      <section class="view" id="view-citations">
+        <div class="filter-bar">
+          <div class="filter-group">
+            <label>Review Status:</label>
+            <select id="filter-status">
+              <option value="">All</option>
+              <option value="unreviewed">Unreviewed</option>
+              <option value="ok">Verified OK</option>
+              <option value="fraud">Fraudulent</option>
+              <option value="ignore">Ignored</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Relation Score:</label>
+            <select id="filter-relation-score">
+              <option value="">Any</option>
+              <option value="low">Low (&lt; 0.4)</option>
+              <option value="medium">Medium (0.4 - 0.7)</option>
+              <option value="high">High (&gt; 0.7)</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Pinpoint Score:</label>
+            <select id="filter-pinpoint-score">
+              <option value="">Any</option>
+              <option value="low">Low (&lt; 0.4)</option>
+              <option value="medium">Medium (0.4 - 0.7)</option>
+              <option value="high">High (&gt; 0.7)</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Flags:</label>
+            <select id="filter-flags">
+              <option value="">Any</option>
+              <option value="below_threshold">Below Threshold</option>
+              <option value="out_of_jurisdiction">Out of Jurisdiction</option>
+              <option value="age_mismatch">Age Mismatch</option>
+              <option value="self_citation">Self Citation</option>
+              <option value="any_flag">Any Flag</option>
+              <option value="no_flags">No Flags</option>
+            </select>
+          </div>
+          <button class="btn btn-secondary btn-sm" id="clear-filters-btn">Clear Filters</button>
+        </div>
+        <div class="filter-results-count" id="filter-results-count"></div>
+        <div class="citations-list" id="all-citations">
+          <div class="loading">Loading citations...</div>
+        </div>
+      </section>
+
+
+      <!-- Flagged Citations View -->
+      <section class="view" id="view-flagged">
+        <div class="flagged-info">
+          <p>Citations flagged by the AI analysis system for manual review. These may have low relation scores, pinpoint
+            mismatches, or other concerns.</p>
+        </div>
+        <div class="citations-list" id="flagged-citations">
+          <div class="loading">Loading flagged citations...</div>
+        </div>
+      </section>
+
+      <!-- Reviewed Citations View -->
+      <section class="view" id="view-reviewed">
+        <div class="filter-bar">
+          <div class="filter-group">
+            <label>Filter by status:</label>
+            <select id="reviewed-filter-status">
+              <option value="">All Reviewed</option>
+              <option value="ok">Verified OK</option>
+              <option value="fraud">Fraudulent</option>
+              <option value="ignore">Ignored</option>
+            </select>
+          </div>
+        </div>
+        <div class="citations-list" id="reviewed-citations">
+          <div class="loading">Loading reviewed citations...</div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Review Modal -->
+  <div class="modal-overlay" id="review-modal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Review Citation</h3>
+        <button class="modal-close" onclick="window.app.closeModal()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="citation-preview" id="modal-citation-preview"></div>
+        <div class="form-group">
+          <label>Decision:</label>
+          <div class="status-buttons">
+            <button class="status-btn status-ok" data-status="ok">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span>Verified OK</span>
+            </button>
+            <button class="status-btn status-fraud" data-status="fraud">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="15" y1="9" x2="9" y2="15" />
+                <line x1="9" y1="9" x2="15" y2="15" />
+              </svg>
+              <span>Fraudulent</span>
+            </button>
+            <button class="status-btn status-ignore" data-status="ignore">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="4.93" y1="4.93" x2="19.07" y2="19.07" />
+              </svg>
+              <span>Ignore</span>
+            </button>
+          </div>
+        </div>
+        <div class="form-group" id="reason-group" style="display: none;">
+          <label for="review-reason">Reason (required for Fraudulent/Ignore):</label>
+          <textarea id="review-reason" placeholder="Explain why this citation is being marked..."></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="window.app.closeModal()">Cancel</button>
+        <button class="btn btn-primary" id="submit-review" disabled>Submit Review</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Citation Detail Modal -->
+  <div class="modal-overlay" id="citation-detail-modal">
+    <div class="modal modal-large">
+      <div class="modal-header">
+        <h3 id="detail-modal-title">Citation Details</h3>
+        <button class="modal-close" onclick="window.app.closeCitationDetail()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body" id="citation-detail-content">
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="window.app.closeCitationDetail()">Close</button>
+        <button class="btn btn-primary" id="detail-review-btn">Review This Citation</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
